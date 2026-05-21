@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Next Best Audio Book — Discover What to Listen to on Audible</title>
+  <meta name="description" content="Spin through curated trending audiobooks on Audible. Find your next listen in seconds — new picks updated regularly.">
+  <link rel="canonical" href="https://nextbestaudiobook.com">
+
+  <!-- Open Graph -->
+  <meta property="og:title"       content="Next Best Audio Book">
+  <meta property="og:description" content="Spin through curated trending audiobooks on Audible. Find your next listen in seconds.">
+  <meta property="og:url"         content="https://nextbestaudiobook.com">
+  <meta property="og:type"        content="website">
+  <meta property="og:image"       content="https://nextbestaudiobook.com/og-image.jpg">
+
+  <!-- Twitter -->
+  <meta name="twitter:card"        content="summary_large_image">
+  <meta name="twitter:title"       content="Next Best Audio Book">
+  <meta name="twitter:description" content="Spin through curated trending audiobooks on Audible.">
+  <meta name="twitter:image"       content="https://nextbestaudiobook.com/og-image.jpg">
+
+  <!-- Static WebSite schema — ItemList injected by main.js after load -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Next Best Audio Book",
+    "url": "https://nextbestaudiobook.com",
+    "description": "Curated trending audiobooks on Audible, updated regularly."
+  }
+  </script>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <h1 class="site-title">Next Best Audio Book</h1>
+    <p class="site-tagline">Discover what to listen to on Audible right now</p>
+  </header>
+
+  <!-- Tag filter buttons — built from book badge data by main.js -->
+  <nav class="tag-nav" id="tagNav" aria-label="Filter audiobooks by tag"></nav>
+
+  <!-- ===================== COVER FLOW ===================== -->
+  <section class="coverflow-section" aria-label="Audiobook carousel">
+    <div class="coverflow-stage" id="coverflowStage">
+      <div class="coverflow-track" id="coverflowTrack"></div>
+    </div>
+    <button class="arrow-btn arrow-prev" id="prevBtn" aria-label="Previous audiobook">&#8249;</button>
+    <button class="arrow-btn arrow-next" id="nextBtn" aria-label="Next audiobook">&#8250;</button>
+  </section>
+
+  <!-- Spin -->
+  <div class="spin-zone">
+    <button class="spin-btn" id="spinBtn" aria-label="Spin to a random audiobook">
+      <span class="spin-icon" aria-hidden="true">&#8635;</span> Spin
+    </button>
+  </div>
+
+  <!-- ===================== BOOK DETAILS ===================== -->
+  <!-- Populated by main.js. aria-live so screen readers announce changes. -->
+  <main>
+    <section class="book-details" id="bookDetails" aria-live="polite" aria-atomic="true">
+      <!-- JS renders here -->
+    </section>
+
+    <!-- ===================== CTA ===================== -->
+    <section class="cta-zone" id="ctaZone" aria-live="polite" aria-atomic="true">
+      <!-- JS renders here -->
+    </section>
+
+    <p class="disclosure" id="disclosure">
+      This site contains affiliate links. We may earn a small commission if you sign up or purchase via our links — at no extra cost to you.
+    </p>
+
+    <!-- ===================== GRID VIEW ===================== -->
+    <section class="grid-section">
+      <button class="grid-toggle-btn" id="gridToggle" aria-expanded="false" aria-controls="bookGrid">
+        Show all books ↓
+      </button>
+      <div class="book-grid" id="bookGrid" hidden aria-label="All featured audiobooks"></div>
+    </section>
+  </main>
+
+  <p class="freshness-note">Updated May 2026</p>
+
+  <footer class="site-footer">
+    <p>
+      &copy; 2026 Next Best Audio Book
+      &nbsp;&middot;&nbsp;
+      <a href="#disclosure">Affiliate disclosure</a>
+    </p>
+  </footer>
+
+  <!-- Data first, then logic -->
+  <script src="books.js"></script>
+  <script src="main.js"></script>
+
+</body>
+</html>
