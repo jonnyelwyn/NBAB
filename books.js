@@ -18,16 +18,17 @@ const books = [
   {
     id: 1,
     title: 'Fourth Wing',
+    subtitle: 'Empyrean, Book 1',
     author: 'Rebecca Yarros',
     narrator: 'Rebecca Soler & Teddy Hamilton',
-    coverImage: 'https://placehold.co/300x450/8B0000/ffffff?text=Fourth+Wing',
-    duration: '21 hrs 22 mins',
-    rating: 4.7,
-    reviewCount: '124,503',
+    coverImage: 'https://m.media-amazon.com/images/I/A1KEOf-coBL._SL500_.jpg',
+    duration: '22 hrs 2 mins',
+    rating: 4.8,
+    reviewCount: '504,987',
     review: 'A breakout fantasy epic that took social media by storm — dragon riders, forbidden romance, and brutal military academia collide in one genuinely thrilling package. Rebecca Soler\'s narration is exceptional, and the pacing keeps you hooked through every twist.',
     badges: ['Trending', 'Bestseller', 'Fan Favourite'],
     audibleUrl: 'https://www.audible.co.uk/pd/Fourth-Wing-Audiobook/B0BXM2FJVD',
-    amazonUrl:  'https://www.amazon.co.uk/dp/1649374046'
+    amazonUrl:  'https://www.amazon.com/Fourth-Wing-Empyrean-Book-1/dp/B0BVDJ293G'
   },
   {
     id: 2,
