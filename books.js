@@ -47,16 +47,17 @@ const books = [
   {
     id: 3,
     title: 'Atomic Habits',
+    subtitle: 'The life-changing million-copy #1 bestseller',
     author: 'James Clear',
     narrator: 'James Clear',
-    coverImage: 'https://placehold.co/300x450/2c4a1e/ffffff?text=Atomic+Habits',
+    coverImage: 'https://m.media-amazon.com/images/I/81iss3ldpLL._SL500_.jpg',
     duration: '5 hrs 35 mins',
     rating: 4.8,
-    reviewCount: '203,419',
+    reviewCount: '148,111',
     review: 'The most practical book on behaviour change ever written. Clear\'s systems-over-goals framework is genuinely useful, and hearing it in the author\'s own voice adds real conviction. Short enough to finish on a long walk.',
     badges: ['Bestseller', 'Non-fiction'],
     audibleUrl: 'https://www.audible.co.uk/pd/Atomic-Habits-Audiobook/B01N5ESSKW',
-    amazonUrl:  'https://www.amazon.co.uk/dp/0735211299'
+    amazonUrl:  'https://www.amazon.com/Atomic-Habits-James-Clear-audiobook/dp/B07J1PMF1H'
   },
   {
     id: 4,
