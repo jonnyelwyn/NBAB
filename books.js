@@ -27,8 +27,8 @@ const books = [
     reviewCount: '504,987',
     review: 'A breakout fantasy epic that took social media by storm — dragon riders, forbidden romance, and brutal military academia collide in one genuinely thrilling package. Rebecca Soler\'s narration is exceptional, and the pacing keeps you hooked through every twist.',
     badges: ['Trending', 'Bestseller', 'Fan Favourite'],
-    audibleUrl: 'https://www.audible.co.uk/pd/Fourth-Wing-Audiobook/B0BXM2FJVD',
-    amazonUrl:  'https://www.amazon.com/Fourth-Wing-Empyrean-Book-1/dp/B0BVDJ293G'
+    audibleUrl: 'https://www.amazon.com/Fourth-Wing-Empyrean-Book-1/dp/B0BVDJ293G?crid=3V7QP1FX7HZUK&dib=eyJ2IjoiMSJ9.-BlAbGtU8JYmgnlGmlHN1dlGgMykHcZaUcuWl91KI2_t8h1CtJ31tJNYLBy235vBczs8s7V_mSyUsHdwkdpyaLgiGbPh9TEih17cR9TuuQw.EC5t-mtsTa_8Nhg7y_AIx9GwAqMCynrlNlUhAgaSHvg&dib_tag=se&keywords=forth+wing&qid=1779372280&s=audible&sprefix=fort%2Caudible%2C179&sr=1-1&linkCode=ll2&tag=nbab-20&linkId=e5351b2ffe6fe3cb6f5da556d9dc16dc&language=en_US&ref_=as_li_ss_tl',
+    amazonUrl:  'https://www.amazon.com/Fourth-Wing-Empyrean-Book-1/dp/B0BVDJ293G?crid=3V7QP1FX7HZUK&dib=eyJ2IjoiMSJ9.-BlAbGtU8JYmgnlGmlHN1dlGgMykHcZaUcuWl91KI2_t8h1CtJ31tJNYLBy235vBczs8s7V_mSyUsHdwkdpyaLgiGbPh9TEih17cR9TuuQw.EC5t-mtsTa_8Nhg7y_AIx9GwAqMCynrlNlUhAgaSHvg&dib_tag=se&keywords=forth+wing&qid=1779372280&s=audible&sprefix=fort%2Caudible%2C179&sr=1-1&linkCode=ll2&tag=nbab-20&linkId=e5351b2ffe6fe3cb6f5da556d9dc16dc&language=en_US&ref_=as_li_ss_tl'
   },
   {
     id: 2,
@@ -41,8 +41,8 @@ const books = [
     reviewCount: '241,734',
     review: 'Now a major motion picture starring Ryan Gosling. A lone astronaut wakes with no memory on a mission to save Earth — what unfolds is funny, heartbreaking, and scientifically dazzling. Ray Porter\'s narration is some of the finest you\'ll find anywhere.',
     badges: ['Bestseller', 'Critic\'s Pick', 'Film Adaptation'],
-    audibleUrl: 'https://www.audible.co.uk/pd/Project-Hail-Mary-Audiobook/B08G9PRS1K',
-    amazonUrl:  'https://www.amazon.com/Project-Hail-Mary/dp/B08GB58KD5'
+    audibleUrl: 'https://www.amazon.com/Project-Hail-Mary/dp/B08GB58KD5?crid=1RUC2YRLVUVAW&dib=eyJ2IjoiMSJ9.KArNaRNh9t6Ylm0nMwtTmYit22GHyNyY2D_f9p2r0tSdJRA79EFVzUJvkzHYwSqdAfLv0ByR88hjnLKkjxJN0MZH1gUmn8-lFP_tijkfDAaflks1EHETlVD6R4gJmvsEo5t451uhFxz4z8dW0TX7I6ZcAXETcVuKRJgdwmufmVBzy5FmyqoZHWrnhzglFM1XdVUxRtMnly_Osp5zNsMc3zHeylSyhdjluVpXwR6_Odo.GP8SXBoG7iBXFSllnvmpde1EjKke0N9DSl-avrZbxJQ&dib_tag=se&keywords=project+hail+mary&qid=1779372297&s=audible&sprefix=project+%2Caudible%2C182&sr=1-1&linkCode=ll2&tag=nbab-20&linkId=fb129d08c24f8541209c2d614d86fb2e&language=en_US&ref_=as_li_ss_tl',
+    amazonUrl:  'https://www.amazon.com/Project-Hail-Mary/dp/B08GB58KD5?crid=1RUC2YRLVUVAW&dib=eyJ2IjoiMSJ9.KArNaRNh9t6Ylm0nMwtTmYit22GHyNyY2D_f9p2r0tSdJRA79EFVzUJvkzHYwSqdAfLv0ByR88hjnLKkjxJN0MZH1gUmn8-lFP_tijkfDAaflks1EHETlVD6R4gJmvsEo5t451uhFxz4z8dW0TX7I6ZcAXETcVuKRJgdwmufmVBzy5FmyqoZHWrnhzglFM1XdVUxRtMnly_Osp5zNsMc3zHeylSyhdjluVpXwR6_Odo.GP8SXBoG7iBXFSllnvmpde1EjKke0N9DSl-avrZbxJQ&dib_tag=se&keywords=project+hail+mary&qid=1779372297&s=audible&sprefix=project+%2Caudible%2C182&sr=1-1&linkCode=ll2&tag=nbab-20&linkId=fb129d08c24f8541209c2d614d86fb2e&language=en_US&ref_=as_li_ss_tl'
   },
   {
     id: 3,
@@ -56,8 +56,8 @@ const books = [
     reviewCount: '148,111',
     review: 'The most practical book on behaviour change ever written. Clear\'s systems-over-goals framework is genuinely useful, and hearing it in the author\'s own voice adds real conviction. Short enough to finish on a long walk.',
     badges: ['Bestseller', 'Non-fiction'],
-    audibleUrl: 'https://www.audible.co.uk/pd/Atomic-Habits-Audiobook/B01N5ESSKW',
-    amazonUrl:  'https://www.amazon.com/Atomic-Habits-James-Clear-audiobook/dp/B07J1PMF1H'
+    audibleUrl: 'https://www.amazon.com/Atomic-Habits-James-Clear-audiobook/dp/B07J1PMF1H?crid=FQMHB4S4SJL1&dib=eyJ2IjoiMSJ9.mAk7_saF845WLwk7VMgKPJRwkLmxW2LFNkeWqjarnQESvWFR0RFPVZv6V9kdc1tG6Gkf4OVvGXCv82f5u2ivK_bGAVs172aRKd26iHeIiKFc_xXflbNW1Jk0-rjWZ9O4L4HsSeJn_R2r5sxeub85VliOvakMK3VCHJ8XG-c-KV_oL-YWw8IHOMbqaN6_e4HFzyvx0DnAYdxtv2K-e4gMiNamB706fATzrf1KhPO4oqw.qBB6IgES5jorCzaTLPbxSxM4Uqf9LrNb0seLnqeU_Pw&dib_tag=se&keywords=atomic+habits&qid=1779372338&s=audible&sprefix=atomic+%2Caudible%2C177&sr=1-1&linkCode=ll2&tag=nbab-20&linkId=a36ff2ece71721f110bf8f8395519540&language=en_US&ref_=as_li_ss_tl',
+    amazonUrl:  'https://www.amazon.com/Atomic-Habits-James-Clear-audiobook/dp/B07J1PMF1H?crid=FQMHB4S4SJL1&dib=eyJ2IjoiMSJ9.mAk7_saF845WLwk7VMgKPJRwkLmxW2LFNkeWqjarnQESvWFR0RFPVZv6V9kdc1tG6Gkf4OVvGXCv82f5u2ivK_bGAVs172aRKd26iHeIiKFc_xXflbNW1Jk0-rjWZ9O4L4HsSeJn_R2r5sxeub85VliOvakMK3VCHJ8XG-c-KV_oL-YWw8IHOMbqaN6_e4HFzyvx0DnAYdxtv2K-e4gMiNamB706fATzrf1KhPO4oqw.qBB6IgES5jorCzaTLPbxSxM4Uqf9LrNb0seLnqeU_Pw&dib_tag=se&keywords=atomic+habits&qid=1779372338&s=audible&sprefix=atomic+%2Caudible%2C177&sr=1-1&linkCode=ll2&tag=nbab-20&linkId=a36ff2ece71721f110bf8f8395519540&language=en_US&ref_=as_li_ss_tl'
   },
   {
     id: 4,
@@ -71,22 +71,8 @@ const books = [
     reviewCount: '156,233',
     review: 'An entirely new production with hundreds of unique voices and Dolby Atmos sound design — Hugh Laurie as Dumbledore, Riz Ahmed as Snape, Matthew Macfadyen as Voldemort, and Cush Jumbo narrating. The immersive audio makes Quidditch and Hogwarts feel genuinely cinematic. Wear headphones.',
     badges: ['Full Cast', 'Classic', 'Fan Favourite'],
-    audibleUrl: 'https://www.audible.co.uk/pd/Harry-Potter-and-the-Philosophers-Stone-Audiobook/B017V4IWVG',
-    amazonUrl:  'https://www.amazon.com/Harry-Potter-Philosophers-Stone-Full-Cast/dp/B0F14SX2V2'
-  },
-  {
-    id: 5,
-    title: 'The Hitchhiker\'s Guide to the Galaxy',
-    author: 'Douglas Adams',
-    narrator: 'Full Cast (BBC Radio)',
-    coverImage: 'https://placehold.co/300x450/1565C0/ffffff?text=Hitchhiker%27s+Guide',
-    duration: '3 hrs 37 mins',
-    rating: 4.8,
-    reviewCount: '42,110',
-    review: 'The original BBC Radio 4 dramatisation remains the definitive version — Adams\' surreal, perfectly-timed comedy sounds best when heard rather than read. The cast, sound design, and sheer absurdity are impeccable.',
-    badges: ['Full Cast', 'Classic', 'Comedy'],
-    audibleUrl: 'https://www.audible.co.uk/pd/The-Hitchhikers-Guide-to-the-Galaxy-Audiobook/B004EXKW2A',
-    amazonUrl:  'https://www.amazon.co.uk/dp/0330508539'
+    audibleUrl: 'https://www.amazon.com/Harry-Potter-Philosophers-Stone-Full-Cast/dp/B0F14SX2V2?crid=1GCOSLPU2D71C&dib=eyJ2IjoiMSJ9.92E6CV1jQ8qcY34f23JVMnehG1lJvGDbwsw7RIX6oqma3o_SGjOLL_hCowy6HYZsp94KRcADxT14a8jy_zUxON24Bh5rafE5orKLdHXcfHvjA99UVXlN_-bTcYQNmt7PFjzbD_OZQ8paXpqkC_v1aq9KqQNaLbJwdcbNxR4sRCGFwkRnzY88p7pxNTRdenp2ViShvdocoyN4YxAFLO63DrKDmpTeNmdoqC4pl08vuIw._f0xsIJT-22TgJ3Er-FiwWqlAgYK6mfmdv8ZO2q83cQ&dib_tag=se&keywords=harry+potter+audiobook+full+cast&qid=1779372363&s=audible&sprefix=harry+potter%2Caudible%2C185&sr=1-1&linkCode=ll2&tag=nbab-20&linkId=4acd298e7237bad2af7c446f839fd46a&language=en_US&ref_=as_li_ss_tl',
+    amazonUrl:  'https://www.amazon.com/Harry-Potter-Philosophers-Stone-Full-Cast/dp/B0F14SX2V2?crid=1GCOSLPU2D71C&dib=eyJ2IjoiMSJ9.92E6CV1jQ8qcY34f23JVMnehG1lJvGDbwsw7RIX6oqma3o_SGjOLL_hCowy6HYZsp94KRcADxT14a8jy_zUxON24Bh5rafE5orKLdHXcfHvjA99UVXlN_-bTcYQNmt7PFjzbD_OZQ8paXpqkC_v1aq9KqQNaLbJwdcbNxR4sRCGFwkRnzY88p7pxNTRdenp2ViShvdocoyN4YxAFLO63DrKDmpTeNmdoqC4pl08vuIw._f0xsIJT-22TgJ3Er-FiwWqlAgYK6mfmdv8ZO2q83cQ&dib_tag=se&keywords=harry+potter+audiobook+full+cast&qid=1779372363&s=audible&sprefix=harry+potter%2Caudible%2C185&sr=1-1&linkCode=ll2&tag=nbab-20&linkId=4acd298e7237bad2af7c446f839fd46a&language=en_US&ref_=as_li_ss_tl'
   },
   {
     id: 6,
@@ -100,8 +86,8 @@ const books = [
     reviewCount: '313,945',
     review: 'A chemist-turned-TV-cooking-host in 1960s California — funnier, sharper, and more emotionally gutting than the premise suggests. Raison\'s narration gives the protagonist a steely warmth that makes this adaptation distinctly her own.',
     badges: ['Trending', 'TV Adaptation', 'Bestseller'],
-    audibleUrl: 'https://www.audible.co.uk/pd/Lessons-in-Chemistry-Audiobook/B09FBCXMVN',
-    amazonUrl:  'https://www.amazon.com/Audible-Lessons-in-Chemistry/dp/B09BVX1BT8'
+    audibleUrl: 'https://www.amazon.com/Audible-Lessons-in-Chemistry/dp/B09BVX1BT8?crid=1OEAXU5BYIXWS&dib=eyJ2IjoiMSJ9.CYYPmzuFenf84LLgfffmgI-AZZQWyzHFv-Rco8ziqkVyPAim-rFgdm3dCPN95Bqo7KE8CJT07W4vBXOoZFBvZtHoCKWjQA4dKQIl4KUFT29Ge_FlhWXzsXH-ncaP8T_kOucEAO1e4H8JF3EeDJzpBO9MB5lLbPON35Opndha9N20SAPo2WeLpmEhOYFReA3bHn1_scZQOHgpkDqzObi_NoSe3NOLqnwjSG5gG22iL5A.Y8dB7raCRYamRRd8z2e55m1IIcBZwRSp0ffNlIyP0aU&dib_tag=se&keywords=lessons+in+chemistry&qid=1779372318&s=audible&sprefix=lessons+in%2Caudible%2C178&sr=1-2&linkCode=ll2&tag=nbab-20&linkId=f20ffab9b8a9f7dce0b58f02be64f9d5&language=en_US&ref_=as_li_ss_tl',
+    amazonUrl:  'https://www.amazon.com/Audible-Lessons-in-Chemistry/dp/B09BVX1BT8?crid=1OEAXU5BYIXWS&dib=eyJ2IjoiMSJ9.CYYPmzuFenf84LLgfffmgI-AZZQWyzHFv-Rco8ziqkVyPAim-rFgdm3dCPN95Bqo7KE8CJT07W4vBXOoZFBvZtHoCKWjQA4dKQIl4KUFT29Ge_FlhWXzsXH-ncaP8T_kOucEAO1e4H8JF3EeDJzpBO9MB5lLbPON35Opndha9N20SAPo2WeLpmEhOYFReA3bHn1_scZQOHgpkDqzObi_NoSe3NOLqnwjSG5gG22iL5A.Y8dB7raCRYamRRd8z2e55m1IIcBZwRSp0ffNlIyP0aU&dib_tag=se&keywords=lessons+in+chemistry&qid=1779372318&s=audible&sprefix=lessons+in%2Caudible%2C178&sr=1-2&linkCode=ll2&tag=nbab-20&linkId=f20ffab9b8a9f7dce0b58f02be64f9d5&language=en_US&ref_=as_li_ss_tl'
   },
   {
     id: 7,
@@ -115,8 +101,8 @@ const books = [
     reviewCount: '417,844',
     review: 'The follow-up to Fourth Wing is bigger, darker, and longer — in the best possible way. The dual narration has settled into something genuinely special, and the political intrigue adds real texture to the dragon-riding action.',
     badges: ['Trending', 'Series', 'Fantasy'],
-    audibleUrl: 'https://www.audible.co.uk/pd/Iron-Flame-Audiobook/B0CJ5D9MDT',
-    amazonUrl:  'https://www.amazon.com/Iron-Flame-Empyrean-Book-2/dp/B0C9V75P93'
+    audibleUrl: 'https://www.amazon.com/Iron-Flame-Empyrean-Book-2/dp/B0C9V75P93?crid=3ROQY1BKB6IE9&dib=eyJ2IjoiMSJ9.BkudAUFYglG8hvFa4_5m8qw93BKylRneML6iEAxM7_BhcTx2Px66fp8AIEgPwMwGfKRLd4Q23uVpaBlN5xD0X2qj5eJaVKKZR3OwFt0XBuPs3TX4qhFQpen7R8h4xcJb4cuuqKOWCJYpi9THCJW2HYhKbwFaTJETL3RhYbCHcCo.CRf7sBcrOnJ3B6rq42Qe1zRdjpoMUr_JW9Wz0doS76s&dib_tag=se&keywords=iron+flame&qid=1779372385&s=audible&sprefix=iron+fla%2Caudible%2C173&sr=1-2&linkCode=ll2&tag=nbab-20&linkId=c2135a9acf73f36f032f5c721d7eb016&language=en_US&ref_=as_li_ss_tl',
+    amazonUrl:  'https://www.amazon.com/Iron-Flame-Empyrean-Book-2/dp/B0C9V75P93?crid=3ROQY1BKB6IE9&dib=eyJ2IjoiMSJ9.BkudAUFYglG8hvFa4_5m8qw93BKylRneML6iEAxM7_BhcTx2Px66fp8AIEgPwMwGfKRLd4Q23uVpaBlN5xD0X2qj5eJaVKKZR3OwFt0XBuPs3TX4qhFQpen7R8h4xcJb4cuuqKOWCJYpi9THCJW2HYhKbwFaTJETL3RhYbCHcCo.CRf7sBcrOnJ3B6rq42Qe1zRdjpoMUr_JW9Wz0doS76s&dib_tag=se&keywords=iron+flame&qid=1779372385&s=audible&sprefix=iron+fla%2Caudible%2C173&sr=1-2&linkCode=ll2&tag=nbab-20&linkId=c2135a9acf73f36f032f5c721d7eb016&language=en_US&ref_=as_li_ss_tl'
   },
   {
     id: 8,
@@ -129,8 +115,8 @@ const books = [
     reviewCount: '132,448',
     review: 'A novel about friendship, creativity, and video game design that manages to be one of the most emotionally intelligent books in years. Kim\'s narration captures both the intellectual excitement and the quiet grief with remarkable precision.',
     badges: ['Critic\'s Pick', 'Bestseller'],
-    audibleUrl: 'https://www.audible.co.uk/pd/Tomorrow-and-Tomorrow-and-Tomorrow-Audiobook/B09Z6KPHRJ',
-    amazonUrl:  'https://www.amazon.com/Tomorrow-and/dp/B09LHXNDSP'
+    audibleUrl: 'https://www.amazon.com/Tomorrow-and/dp/B09LHXNDSP?crid=1UC3HA68IS5Z2&dib=eyJ2IjoiMSJ9.bPNkGQv6YIJWmNAa5XUSoruBLPkvRCiLja-EpDj0dwz73BtqKMycNp4CBIEnS0bMU_Aw6cQ_T5u_Vp7tdiLfQR8-rZCqPFc60mGENRw7Z_l1bbnli3JJCY0kTaE9cVoQPjKB4jqHr2PzZzEaMRjAhOVLOGuTXbWrJmrIhXof1cTCZ_LULJZCsxEdzRzJKOQQMxc53Hfx43TnVqA_2FjkeADsbwUuDIlKKBtHXTy1dzw.K9T3kBNpFTlg7176sq7qBjDO5vxNT6IlGQvwNVd2Zsg&dib_tag=se&keywords=tomorrow+and+tomorrow+and+tomorrow&qid=1779372405&s=audible&sprefix=tomo%2Caudible%2C174&sr=1-2&linkCode=ll2&tag=nbab-20&linkId=ac1cb515f3aa7872004053c52707c736&language=en_US&ref_=as_li_ss_tl',
+    amazonUrl:  'https://www.amazon.com/Tomorrow-and/dp/B09LHXNDSP?crid=1UC3HA68IS5Z2&dib=eyJ2IjoiMSJ9.bPNkGQv6YIJWmNAa5XUSoruBLPkvRCiLja-EpDj0dwz73BtqKMycNp4CBIEnS0bMU_Aw6cQ_T5u_Vp7tdiLfQR8-rZCqPFc60mGENRw7Z_l1bbnli3JJCY0kTaE9cVoQPjKB4jqHr2PzZzEaMRjAhOVLOGuTXbWrJmrIhXof1cTCZ_LULJZCsxEdzRzJKOQQMxc53Hfx43TnVqA_2FjkeADsbwUuDIlKKBtHXTy1dzw.K9T3kBNpFTlg7176sq7qBjDO5vxNT6IlGQvwNVd2Zsg&dib_tag=se&keywords=tomorrow+and+tomorrow+and+tomorrow&qid=1779372405&s=audible&sprefix=tomo%2Caudible%2C174&sr=1-2&linkCode=ll2&tag=nbab-20&linkId=ac1cb515f3aa7872004053c52707c736&language=en_US&ref_=as_li_ss_tl'
   },
   {
     id: 9,
@@ -144,8 +130,8 @@ const books = [
     reviewCount: '181,963',
     review: 'Soon to be a major Netflix film. Four retirement-home residents who solve cold cases together stumble into a very live murder. Warm, funny, and genuinely clever — Lesley Manville\'s narration is pitch-perfect, and there\'s an exclusive conversation with Richard Osman and Marian Keyes at the end.',
     badges: ['Bestseller', 'Film Adaptation', 'Comedy'],
-    audibleUrl: 'https://www.audible.co.uk/pd/The-Thursday-Murder-Club-Audiobook/B089FRTJPR',
-    amazonUrl:  'https://www.amazon.com/The-Thursday-Murder-Club/dp/B07V5WPCSK'
+    audibleUrl: 'https://www.amazon.com/The-Thursday-Murder-Club/dp/B07V5WPCSK?crid=3HVELPW2HKU82&dib=eyJ2IjoiMSJ9.34mS_XVTPKN_toGQ9Zlm17jz93OU1QefmoTe2rxSKsMZ73ocut6CqUKwcjqHd_jI-HC8CuMb99Dp2qWqybh-hfMZXZ1E8fVMzliTSQXh7D_e2cX17cfQcJ2h-vCj0NPzQgbVwDZCAWbCRtxGOvINC6zeqfHIhYYbqOYt5OnF478Kw9WZYBJs0oq6ibx9oN8vcRlAtMcj7AwecV1wyJD8e-9J4CWLt11l8-64EMad7uk.PqlrJ8J3FJdJeuRwOw6xAuI7SQHgofSaTn0jLnZmUMY&dib_tag=se&keywords=thursday+murder+club&qid=1779372422&s=audible&sprefix=thurs%2Caudible%2C174&sr=1-1&linkCode=ll2&tag=nbab-20&linkId=38f46cbd6a35ceeaa2c7f05c246571fc&language=en_US&ref_=as_li_ss_tl',
+    amazonUrl:  'https://www.amazon.com/The-Thursday-Murder-Club/dp/B07V5WPCSK?crid=3HVELPW2HKU82&dib=eyJ2IjoiMSJ9.34mS_XVTPKN_toGQ9Zlm17jz93OU1QefmoTe2rxSKsMZ73ocut6CqUKwcjqHd_jI-HC8CuMb99Dp2qWqybh-hfMZXZ1E8fVMzliTSQXh7D_e2cX17cfQcJ2h-vCj0NPzQgbVwDZCAWbCRtxGOvINC6zeqfHIhYYbqOYt5OnF478Kw9WZYBJs0oq6ibx9oN8vcRlAtMcj7AwecV1wyJD8e-9J4CWLt11l8-64EMad7uk.PqlrJ8J3FJdJeuRwOw6xAuI7SQHgofSaTn0jLnZmUMY&dib_tag=se&keywords=thursday+murder+club&qid=1779372422&s=audible&sprefix=thurs%2Caudible%2C174&sr=1-1&linkCode=ll2&tag=nbab-20&linkId=38f46cbd6a35ceeaa2c7f05c246571fc&language=en_US&ref_=as_li_ss_tl'
   },
   {
     id: 10,
@@ -159,8 +145,8 @@ const books = [
     reviewCount: '101,659',
     review: 'Winner of the 2025 Pulitzer Prize, the National Book Award, and the British Book Awards Fiction Book of the Year. A retelling of Huckleberry Finn from Jim\'s perspective — devastating, necessary, and ferociously funny. Hoffman\'s narration is The Guardian\'s Audiobook of the Week.',
     badges: ['Award Winner', 'Trending'],
-    audibleUrl: 'https://www.audible.co.uk/pd/James-Audiobook/B0CW1D1LBT',
-    amazonUrl:  'https://www.amazon.com/Audible-James/dp/B0CFYMW6G8'
+    audibleUrl: 'https://www.amazon.com/Audible-James/dp/B0CFYMW6G8?crid=1S3ODJB0PZTKE&dib=eyJ2IjoiMSJ9.uqERtAlbNS_nGsybN9gIoMyL18tYuUas8AAXsol8Lh4y-A96lL2-BMSSOxGqtuU-tgtwlYysJgcvJ0TehDM4VO7RVohW_ArYAPdWtYNON4CK_5n2Dv8rYef8qZYn6UDet5DdQbZvkgGHE65nMN30FZ0D05Rl-gMchTXZHuXFLuS04IpR9j-ZqnePFC7sAGjc-F-7ulZ0T0euCtz1rTmbnLrXy3mpdq8QbAMUG5x_Jbk.xV3D25pYaVGX8CWKC7a0Z-Ue7nYpLSRN4Ukuk_UpnYs&dib_tag=se&keywords=james&qid=1779372438&s=audible&sprefix=james%2Caudible%2C196&sr=1-2&linkCode=ll2&tag=nbab-20&linkId=fd89b7d7334a6d99043a3922b0883753&language=en_US&ref_=as_li_ss_tl',
+    amazonUrl:  'https://www.amazon.com/Audible-James/dp/B0CFYMW6G8?crid=1S3ODJB0PZTKE&dib=eyJ2IjoiMSJ9.uqERtAlbNS_nGsybN9gIoMyL18tYuUas8AAXsol8Lh4y-A96lL2-BMSSOxGqtuU-tgtwlYysJgcvJ0TehDM4VO7RVohW_ArYAPdWtYNON4CK_5n2Dv8rYef8qZYn6UDet5DdQbZvkgGHE65nMN30FZ0D05Rl-gMchTXZHuXFLuS04IpR9j-ZqnePFC7sAGjc-F-7ulZ0T0euCtz1rTmbnLrXy3mpdq8QbAMUG5x_Jbk.xV3D25pYaVGX8CWKC7a0Z-Ue7nYpLSRN4Ukuk_UpnYs&dib_tag=se&keywords=james&qid=1779372438&s=audible&sprefix=james%2Caudible%2C196&sr=1-2&linkCode=ll2&tag=nbab-20&linkId=fd89b7d7334a6d99043a3922b0883753&language=en_US&ref_=as_li_ss_tl'
   },
   {
     id: 11,
