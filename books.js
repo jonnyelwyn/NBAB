@@ -441,6 +441,21 @@ const books = [
     amazonUrl:  'https://www.amazon.com/Company-of-One-Paul-Jarvis-audiobook/dp/B07LGD1VMJ?crid=3G6E0MWI7AMO7&dib=eyJ2IjoiMSJ9.-cTJ0GciiatR57eVEFoGhYo9JuST6X2LQyki3L7VtuEw5WvPbaZe_XDNWd-Jssrp-7VmZYhrS_ggaaYza9vLSJySlSBhEuII1mr9elYAUI_oov6kUh_dh4b90MfHPT3F-oTyWpLdWAuE4KxacgjGqg.eXPSp9PaNMQYHhAgXe558iqga9BifGoVvOL_nJvvq_E&dib_tag=se&keywords=company+of+one&qid=1779365894&s=audible&sprefix=company+of+on%2Caudible%2C179&sr=1-1&linkCode=ll2&tag=nbab-20&linkId=88fe08440700ccec6349302909e5ecc2&language=en_US&ref_=as_li_ss_tl'
   },
   {
+    id: 44,
+    title: 'The Cuckoo\'s Egg',
+    subtitle: 'Tracking a Spy Through the Maze of Computer Espionage',
+    author: 'Cliff Stoll',
+    narrator: 'Will Damron',
+    coverImage: 'https://m.media-amazon.com/images/I/81niBF6zBEL._SL500_.jpg',
+    duration: '12 hrs 46 mins',
+    rating: 4.6,
+    reviewCount: '3,211',
+    review: 'An astronomer turned systems manager notices a 75-cent accounting error — and pulls on a thread that unravels an international spy ring fuelled by cash, cocaine, and the KGB. Cliff Stoll\'s firsthand account of tracking a hacker through Cold War-era computer networks is a genuine thriller that happens to be completely true. "Instantly fascinating and astonishingly gripping" — Smithsonian.',
+    badges: ['Non-fiction', 'Thriller', 'Critic\'s Pick'],
+    audibleUrl: 'https://www.amazon.com/Cuckoos-Egg-Tracking-Computer-Espionage/dp/B0845PM1M5?crid=2ZX921QX6F1JR&dib=eyJ2IjoiMSJ9.FbVzTFdYnzJSrQspnf_EliPe1yrS7gAht_UYAnnD5LstZXL41aownybqnD2KT7LowSbSZKZv2ZAE52cTxPGD5g.P8o9k2lzyCfoHwoxKEhawIsmKCFHvZSJyl4hThhqOgs&dib_tag=se&keywords=the+cuckoo%27s+egg&qid=1779375815&s=audible&sprefix=the+cuckoos+eg%2Caudible%2C175&sr=1-2&linkCode=ll2&tag=nbab-20&linkId=d29eed6818b60a485cce709d99a5f03a&language=en_US&ref_=as_li_ss_tl',
+    amazonUrl:  'https://www.amazon.com/Cuckoos-Egg-Tracking-Computer-Espionage/dp/B0845PM1M5?crid=2ZX921QX6F1JR&dib=eyJ2IjoiMSJ9.FbVzTFdYnzJSrQspnf_EliPe1yrS7gAht_UYAnnD5LstZXL41aownybqnD2KT7LowSbSZKZv2ZAE52cTxPGD5g.P8o9k2lzyCfoHwoxKEhawIsmKCFHvZSJyl4hThhqOgs&dib_tag=se&keywords=the+cuckoo%27s+egg&qid=1779375815&s=audible&sprefix=the+cuckoos+eg%2Caudible%2C175&sr=1-2&linkCode=ll2&tag=nbab-20&linkId=d29eed6818b60a485cce709d99a5f03a&language=en_US&ref_=as_li_ss_tl'
+  },
+  {
     id: 43,
     title: 'Yesteryear',
     author: 'Caro Claire Burke',
@@ -570,5 +585,34 @@ const books = [
     badges: ['Non-fiction', 'Bestseller'],
     audibleUrl: 'https://www.amazon.com/Shoe-Dog-Phil-Knight-audiobook/dp/B01CRJA470?crid=2GP42YJ2YC26D&dib=eyJ2IjoiMSJ9.jOjyM9oEG5ZRK4lKHP_6u_eyAAYH5Twf_Jcz5zyGUEZnp_Hd1JxBtAa4xVXovyq7s88VZGfenNtEE8NzFmQR6rkWYD00Duh9XHYY0VvvN30pZadXR74GihlUz-xeQDY72vM33CgAt6CnFa4fE-W9sKOAzm0aGYqWH81jDTm6cd9s2g6Vj736cfpOhC6DdcyawReNMyOkriAmPH8v3qNE4vewqIzk9K4ZZxBGGfzZSZE.x2KeT-vsnGyibMpfxPtPPyOmgSk0eZVAEdFd14NMgco&dib_tag=se&keywords=shoe+dog+knight&qid=1779370591&s=audible&sprefix=shoe+dog%2Caudible%2C181&sr=1-1&linkCode=ll2&tag=nbab-20&linkId=e0029c08b07877834cfe4728b0ac2fe7&language=en_US&ref_=as_li_ss_tl',
     amazonUrl:  'https://www.amazon.com/Shoe-Dog-Phil-Knight-audiobook/dp/B01CRJA470?crid=2GP42YJ2YC26D&dib=eyJ2IjoiMSJ9.jOjyM9oEG5ZRK4lKHP_6u_eyAAYH5Twf_Jcz5zyGUEZnp_Hd1JxBtAa4xVXovyq7s88VZGfenNtEE8NzFmQR6rkWYD00Duh9XHYY0VvvN30pZadXR74GihlUz-xeQDY72vM33CgAt6CnFa4fE-W9sKOAzm0aGYqWH81jDTm6cd9s2g6Vj736cfpOhC6DdcyawReNMyOkriAmPH8v3qNE4vewqIzk9K4ZZxBGGfzZSZE.x2KeT-vsnGyibMpfxPtPPyOmgSk0eZVAEdFd14NMgco&dib_tag=se&keywords=shoe+dog+knight&qid=1779370591&s=audible&sprefix=shoe+dog%2Caudible%2C181&sr=1-1&linkCode=ll2&tag=nbab-20&linkId=e0029c08b07877834cfe4728b0ac2fe7&language=en_US&ref_=as_li_ss_tl'
+  },
+  {
+    id: 45,
+    title: 'Going Infinite',
+    subtitle: 'The Rise and Fall of a New Tycoon',
+    author: 'Michael Lewis',
+    narrator: 'Michael Lewis',
+    coverImage: 'https://m.media-amazon.com/images/I/81HB57NhkrL._SL500_.jpg',
+    duration: '9 hrs 35 mins',
+    rating: 4.2,
+    reviewCount: '10,303',
+    review: 'Michael Lewis does what only he can — turns a bewildering financial collapse into something human and almost funny. He had extraordinary access to Sam Bankman-Fried before, during, and after the FTX implosion, and the result is a portrait of a genuinely strange mind operating at the extreme edge of risk. Read by Lewis himself, which makes it feel like a story told over drinks rather than a courtroom testimony.',
+    badges: ['Non-fiction', 'Bestseller', 'True Crime'],
+    audibleUrl: 'https://www.amazon.com/Going-Infinite-Rise-Fall-Tycoon/dp/B0C5JG3DV2?crid=10URDWW1VJCXV&dib=eyJ2IjoiMSJ9.GZAhgOPIGOiUYqD_g-4uPyXEY5QypZygSHP94ndb8pg.PesZMDZ3smv1bNKzXCNhS0k_Nd3ITwrS9wej2Cp2qgw&dib_tag=se&keywords=going+infinite&qid=1779376075&s=audible&sprefix=going+infinte%2Caudible%2C178&sr=1-1&linkCode=ll2&tag=nbab-20&linkId=b4f2abe9d239e2c4b71106194deae997&language=en_US&ref_=as_li_ss_tl',
+    amazonUrl:  'https://www.amazon.com/Going-Infinite-Rise-Fall-Tycoon/dp/B0C5JG3DV2?crid=10URDWW1VJCXV&dib=eyJ2IjoiMSJ9.GZAhgOPIGOiUYqD_g-4uPyXEY5QypZygSHP94ndb8pg.PesZMDZ3smv1bNKzXCNhS0k_Nd3ITwrS9wej2Cp2qgw&dib_tag=se&keywords=going+infinite&qid=1779376075&s=audible&sprefix=going+infinte%2Caudible%2C178&sr=1-1&linkCode=ll2&tag=nbab-20&linkId=b4f2abe9d239e2c4b71106194deae997&language=en_US&ref_=as_li_ss_tl'
+  },
+  {
+    id: 46,
+    title: 'Reamde',
+    author: 'Neal Stephenson',
+    narrator: 'Malcolm Hillgartner',
+    coverImage: 'https://m.media-amazon.com/images/I/51ks1sIk33L._SL500_.jpg',
+    duration: '38 hrs 29 mins',
+    rating: 4.4,
+    reviewCount: '5,662',
+    review: 'A wealthy tech entrepreneur\'s online fantasy game becomes the unlikely epicentre of a global hostage crisis involving Russian mobsters, Chinese hackers, and jihadist terrorists. At nearly 40 hours, Reamde is Stephenson at his most propulsive — a techno-thriller that rewards every minute of its considerable runtime. Malcolm Hillgartner keeps the enormous cast distinct and the pace relentless.',
+    badges: ['Sci-fi & Fantasy', 'Thriller', 'Bestseller'],
+    audibleUrl: 'https://www.amazon.com/Reamde-Neal-Stephenson-audiobook/dp/B005Q20OBM?crid=23Q7GNFWLJEMS&dib=eyJ2IjoiMSJ9._CU2YA66X9Y3e9GkaNHYjQ.mwFY5D3vd6cS143iiYUGZX8wCJla6vZ4mm8IDS_oOf8&dib_tag=se&keywords=neal+stephenson+reamde&qid=1779375949&s=audible&sprefix=neal+stephenson+reamde%2Caudible%2C166&sr=1-1&linkCode=ll2&tag=nbab-20&linkId=475373cc6afbd7bafac244bc0b2e4d6b&language=en_US&ref_=as_li_ss_tl',
+    amazonUrl:  'https://www.amazon.com/Reamde-Neal-Stephenson-audiobook/dp/B005Q20OBM?crid=23Q7GNFWLJEMS&dib=eyJ2IjoiMSJ9._CU2YA66X9Y3e9GkaNHYjQ.mwFY5D3vd6cS143iiYUGZX8wCJla6vZ4mm8IDS_oOf8&dib_tag=se&keywords=neal+stephenson+reamde&qid=1779375949&s=audible&sprefix=neal+stephenson+reamde%2Caudible%2C166&sr=1-1&linkCode=ll2&tag=nbab-20&linkId=475373cc6afbd7bafac244bc0b2e4d6b&language=en_US&ref_=as_li_ss_tl'
   }
 ];
