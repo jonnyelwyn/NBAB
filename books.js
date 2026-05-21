@@ -91,16 +91,17 @@ const books = [
   {
     id: 6,
     title: 'Lessons in Chemistry',
+    subtitle: 'The modern classic multi-million-copy bestseller',
     author: 'Bonnie Garmus',
     narrator: 'Miranda Raison',
-    coverImage: 'https://placehold.co/300x450/c45500/ffffff?text=Lessons+in+Chemistry',
-    duration: '11 hrs 9 mins',
-    rating: 4.7,
-    reviewCount: '98,341',
+    coverImage: 'https://m.media-amazon.com/images/I/51-RGNyz08L._SL500_.jpg',
+    duration: '11 hrs 56 mins',
+    rating: 4.6,
+    reviewCount: '313,945',
     review: 'A chemist-turned-TV-cooking-host in 1960s California — funnier, sharper, and more emotionally gutting than the premise suggests. Raison\'s narration gives the protagonist a steely warmth that makes this adaptation distinctly her own.',
     badges: ['Trending', 'TV Adaptation', 'Bestseller'],
     audibleUrl: 'https://www.audible.co.uk/pd/Lessons-in-Chemistry-Audiobook/B09FBCXMVN',
-    amazonUrl:  'https://www.amazon.co.uk/dp/0857528203'
+    amazonUrl:  'https://www.amazon.com/Audible-Lessons-in-Chemistry/dp/B09BVX1BT8'
   },
   {
     id: 7,
