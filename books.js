@@ -135,16 +135,17 @@ const books = [
   {
     id: 9,
     title: 'The Thursday Murder Club',
+    subtitle: 'Book 1 of 5: Thursday Murder Club Mysteries',
     author: 'Richard Osman',
-    narrator: 'Lesley Manville',
-    coverImage: 'https://placehold.co/300x450/1B5E20/ffffff?text=Thursday+Murder+Club',
-    duration: '10 hrs 14 mins',
-    rating: 4.6,
-    reviewCount: '84,721',
-    review: 'Four retirement-home residents who solve cold cases together stumble into a very live murder. Warm, funny, and genuinely clever — and Lesley Manville\'s narration is pitch-perfect, bringing every eccentric character vividly to life.',
+    narrator: 'Lesley Manville & Marian Keyes',
+    coverImage: 'https://m.media-amazon.com/images/I/71BSZeMNc-L._SL500_.jpg',
+    duration: '12 hrs 25 mins',
+    rating: 4.3,
+    reviewCount: '181,963',
+    review: 'Soon to be a major Netflix film. Four retirement-home residents who solve cold cases together stumble into a very live murder. Warm, funny, and genuinely clever — Lesley Manville\'s narration is pitch-perfect, and there\'s an exclusive conversation with Richard Osman and Marian Keyes at the end.',
     badges: ['Bestseller', 'Film Adaptation', 'Comedy'],
     audibleUrl: 'https://www.audible.co.uk/pd/The-Thursday-Murder-Club-Audiobook/B089FRTJPR',
-    amazonUrl:  'https://www.amazon.co.uk/dp/0241425441'
+    amazonUrl:  'https://www.amazon.com/The-Thursday-Murder-Club/dp/B07V5WPCSK'
   },
   {
     id: 10,
