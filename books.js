@@ -106,16 +106,17 @@ const books = [
   {
     id: 7,
     title: 'Iron Flame',
+    subtitle: 'Empyrean, Book 2',
     author: 'Rebecca Yarros',
     narrator: 'Rebecca Soler & Teddy Hamilton',
-    coverImage: 'https://placehold.co/300x450/3E2723/ffffff?text=Iron+Flame',
-    duration: '28 hrs 9 mins',
-    rating: 4.6,
-    reviewCount: '71,230',
+    coverImage: 'https://m.media-amazon.com/images/I/A19tBquzlPL._SL500_.jpg',
+    duration: '28 hrs 16 mins',
+    rating: 4.7,
+    reviewCount: '417,844',
     review: 'The follow-up to Fourth Wing is bigger, darker, and longer — in the best possible way. The dual narration has settled into something genuinely special, and the political intrigue adds real texture to the dragon-riding action.',
     badges: ['Trending', 'Series', 'Fantasy'],
     audibleUrl: 'https://www.audible.co.uk/pd/Iron-Flame-Audiobook/B0CJ5D9MDT',
-    amazonUrl:  'https://www.amazon.co.uk/dp/1649374178'
+    amazonUrl:  'https://www.amazon.com/Iron-Flame-Empyrean-Book-2/dp/B0C9V75P93'
   },
   {
     id: 8,
