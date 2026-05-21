@@ -154,7 +154,7 @@ const books = [
     author: 'Percival Everett',
     narrator: 'Dominic Hoffman',
     coverImage: 'https://m.media-amazon.com/images/I/81pEI63-5qL._SL500_.jpg',
-    duration: '9 hrs 32 mins',
+    duration: '7 hrs 49 mins',
     rating: 4.6,
     reviewCount: '101,659',
     review: 'Winner of the 2025 Pulitzer Prize, the National Book Award, and the British Book Awards Fiction Book of the Year. A retelling of Huckleberry Finn from Jim\'s perspective — devastating, necessary, and ferociously funny. Hoffman\'s narration is The Guardian\'s Audiobook of the Week.',
