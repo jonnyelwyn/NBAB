@@ -12,7 +12,7 @@
   --cta-primary:  #ff6b35;
   --cover-w:      200px;
   --cover-h:      300px;
-  --stage-h:      380px;
+  --stage-h:      420px;
 }
 
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -132,7 +132,8 @@ body {
   border-radius: 3px;
   box-shadow: 0 16px 60px rgba(0, 0, 0, 0.85);
   /* Reflection — webkit only; Firefox degrades gracefully */
-  -webkit-box-reflect: below 3px -webkit-linear-gradient(transparent 60%, rgba(0, 0, 0, 0.5) 100%);
+  /* Gradient: visible at top of reflection, fades out downward — matches iTunes Cover Flow */
+  -webkit-box-reflect: below 3px -webkit-linear-gradient(rgba(0, 0, 0, 0.35) 0%, transparent 75%);
 }
 
 /* ---- Arrows ---- */
@@ -421,7 +422,7 @@ body {
   :root {
     --cover-w:  150px;
     --cover-h:  225px;
-    --stage-h:  300px;
+    --stage-h:  330px;
   }
   .arrow-prev { left: 4px; }
   .arrow-next { right: 4px; }
@@ -432,7 +433,7 @@ body {
   :root {
     --cover-w:  120px;
     --cover-h:  180px;
-    --stage-h:  260px;
+    --stage-h:  290px;
   }
 }
 

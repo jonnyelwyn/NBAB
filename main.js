@@ -57,7 +57,7 @@ function buildCarousel() {
     const img    = document.createElement('img');
     img.src      = book.coverImage;
     img.alt      = `${book.title} by ${book.author}`;
-    img.loading  = 'lazy';
+    img.loading  = i === DEFAULT_INDEX ? 'eager' : 'lazy';
     img.width    = 200;
     img.height   = 300;
 
@@ -254,10 +254,8 @@ function renderBookDetails() {
 }
 
 function renderStars(rating) {
-  const full  = Math.floor(rating);
-  const half  = (rating % 1) >= 0.5;
-  const empty = 5 - full - (half ? 1 : 0);
-  return '★'.repeat(full) + (half ? '⯨' : '') + '☆'.repeat(empty);
+  const rounded = Math.round(rating);
+  return '★'.repeat(rounded) + '☆'.repeat(5 - rounded);
 }
 
 // ---- CTA ----
@@ -318,9 +316,11 @@ function toggleGrid() {
   if (hidden) {
     grid.removeAttribute('hidden');
     btn.textContent = 'Hide all books ↑';
+    btn.setAttribute('aria-expanded', 'true');
   } else {
     grid.setAttribute('hidden', '');
     btn.textContent = 'Show all books ↓';
+    btn.setAttribute('aria-expanded', 'false');
   }
 }
 
