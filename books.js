@@ -122,15 +122,15 @@ const books = [
     id: 8,
     title: 'Tomorrow, and Tomorrow, and Tomorrow',
     author: 'Gabrielle Zevin',
-    narrator: 'Jennifer Kim',
-    coverImage: 'https://placehold.co/300x450/880E4F/ffffff?text=Tomorrow+x3',
-    duration: '15 hrs 51 mins',
-    rating: 4.6,
-    reviewCount: '63,544',
+    narrator: 'Jennifer Kim & Julian Cihi',
+    coverImage: 'https://m.media-amazon.com/images/I/81wdWQiZG5L._SL500_.jpg',
+    duration: '13 hrs 52 mins',
+    rating: 4.4,
+    reviewCount: '132,448',
     review: 'A novel about friendship, creativity, and video game design that manages to be one of the most emotionally intelligent books in years. Kim\'s narration captures both the intellectual excitement and the quiet grief with remarkable precision.',
     badges: ['Critic\'s Pick', 'Bestseller'],
     audibleUrl: 'https://www.audible.co.uk/pd/Tomorrow-and-Tomorrow-and-Tomorrow-Audiobook/B09Z6KPHRJ',
-    amazonUrl:  'https://www.amazon.co.uk/dp/0593321200'
+    amazonUrl:  'https://www.amazon.com/Tomorrow-and/dp/B09LHXNDSP'
   },
   {
     id: 9,
