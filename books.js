@@ -52,7 +52,7 @@ const books = [
     rating: 4.8,
     reviewCount: '203,419',
     review: 'The most practical book on behaviour change ever written. Clear\'s systems-over-goals framework is genuinely useful, and hearing it in the author\'s own voice adds real conviction. Short enough to finish on a long walk.',
-    badges: ['Bestseller', 'Evergreen', 'Non-fiction'],
+    badges: ['Bestseller', 'Non-fiction'],
     audibleUrl: 'https://www.audible.co.uk/pd/Atomic-Habits-Audiobook/B01N5ESSKW',
     amazonUrl:  'https://www.amazon.co.uk/dp/0735211299'
   },
@@ -123,7 +123,7 @@ const books = [
     rating: 4.6,
     reviewCount: '63,544',
     review: 'A novel about friendship, creativity, and video game design that manages to be one of the most emotionally intelligent books in years. Kim\'s narration captures both the intellectual excitement and the quiet grief with remarkable precision.',
-    badges: ['Critic\'s Pick', 'Literary Fiction', 'Bestseller'],
+    badges: ['Critic\'s Pick', 'Bestseller'],
     audibleUrl: 'https://www.audible.co.uk/pd/Tomorrow-and-Tomorrow-and-Tomorrow-Audiobook/B09Z6KPHRJ',
     amazonUrl:  'https://www.amazon.co.uk/dp/0593321200'
   },
@@ -151,7 +151,7 @@ const books = [
     rating: 4.7,
     reviewCount: '28,103',
     review: 'A Pulitzer Prize-winning retelling of Huckleberry Finn from Jim\'s perspective — devastating, necessary, and brilliantly constructed. Hoffman\'s narration holds the tonal complexity together beautifully, moving between dialect, wit, and heartbreak.',
-    badges: ['Award Winner', 'Literary Fiction', 'Trending'],
+    badges: ['Award Winner', 'Trending'],
     audibleUrl: 'https://www.audible.co.uk/pd/James-Audiobook/B0CW1D1LBT',
     amazonUrl:  'https://www.amazon.co.uk/dp/0385550367'
   },
@@ -165,7 +165,7 @@ const books = [
     rating: 4.4,
     reviewCount: '31,204',
     review: 'Rooney\'s most ambitious novel — two brothers grieving their father, both in complicated love affairs. Richer and more structurally inventive than her earlier work, and the dual narration gives each character a properly distinct inner life.',
-    badges: ['Trending', 'Literary Fiction', 'Bestseller'],
+    badges: ['Trending', 'Bestseller'],
     audibleUrl: 'https://www.audible.co.uk/pd/Intermezzo-Audiobook/B0D6KLXN9T',
     amazonUrl:  'https://www.amazon.co.uk/dp/0571365450'
   },
@@ -179,7 +179,7 @@ const books = [
     rating: 4.8,
     reviewCount: '54,109',
     review: 'One of the most emotionally affecting novels of the century — four friends in New York, and the long shadow of one man\'s childhood trauma. Pittu\'s narration is extraordinary, holding you through what is genuinely the most demanding listen on this list.',
-    badges: ['Critic\'s Pick', 'Literary Fiction', 'Evergreen'],
+    badges: ['Critic\'s Pick'],
     audibleUrl: 'https://www.audible.co.uk/pd/A-Little-Life-Audiobook/B012JTQWPC',
     amazonUrl:  'https://www.amazon.co.uk/dp/1447294157'
   },
@@ -193,7 +193,7 @@ const books = [
     rating: 4.8,
     reviewCount: '37,829',
     review: 'A multigenerational family saga set in South India across 77 years — vast, humane, and rich with medical and cultural detail. Nankani\'s narration is extraordinary: warm, precisely inflected, and perfectly suited to the novel\'s sweep.',
-    badges: ['Bestseller', 'Evergreen', 'Literary Fiction'],
+    badges: ['Bestseller'],
     audibleUrl: 'https://www.audible.co.uk/pd/The-Covenant-of-Water-Audiobook/B0BYWZCT5P',
     amazonUrl:  'https://www.amazon.co.uk/dp/0802161960'
   },
