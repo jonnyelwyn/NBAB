@@ -367,7 +367,7 @@ body {
 
 .book-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(90px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
   gap: 1rem;
   max-width: 860px;
   margin: 1.5rem auto 0;
@@ -384,8 +384,6 @@ body {
 
 .grid-book img {
   width: 100%;
-  aspect-ratio: 1/1;
-  object-fit: cover;
   border-radius: 4px;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.6);
   display: block;
