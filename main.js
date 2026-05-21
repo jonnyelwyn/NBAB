@@ -273,7 +273,7 @@ function renderCTA() {
   zone.innerHTML = `
     <a href="${audible}" class="cta-primary" target="_blank" rel="noopener sponsored"
        aria-label="Listen to ${esc(book.title)} on Audible">
-      Listen on Audible
+      Listen Now on Audible
     </a>
     <a href="${audible}" class="cta-secondary" target="_blank" rel="noopener sponsored">
       ${esc(AUDIBLE_OFFER)}
@@ -320,11 +320,11 @@ function toggleGrid() {
   const hidden = grid.hasAttribute('hidden');
   if (hidden) {
     grid.removeAttribute('hidden');
-    btn.textContent = 'Hide all books ↑';
+    btn.textContent = 'Hide books ↑';
     btn.setAttribute('aria-expanded', 'true');
   } else {
     grid.setAttribute('hidden', '');
-    btn.textContent = 'Show all books ↓';
+    btn.textContent = 'Reveal all books ↓';
     btn.setAttribute('aria-expanded', 'false');
   }
 }
