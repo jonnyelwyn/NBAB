@@ -150,16 +150,17 @@ const books = [
   {
     id: 10,
     title: 'James',
+    subtitle: 'Winner of the 2025 Pulitzer Prize for Fiction',
     author: 'Percival Everett',
     narrator: 'Dominic Hoffman',
-    coverImage: 'https://placehold.co/300x450/212121/ffffff?text=James',
+    coverImage: 'https://m.media-amazon.com/images/I/81pEI63-5qL._SL500_.jpg',
     duration: '9 hrs 32 mins',
-    rating: 4.7,
-    reviewCount: '28,103',
-    review: 'A Pulitzer Prize-winning retelling of Huckleberry Finn from Jim\'s perspective — devastating, necessary, and brilliantly constructed. Hoffman\'s narration holds the tonal complexity together beautifully, moving between dialect, wit, and heartbreak.',
+    rating: 4.6,
+    reviewCount: '101,659',
+    review: 'Winner of the 2025 Pulitzer Prize, the National Book Award, and the British Book Awards Fiction Book of the Year. A retelling of Huckleberry Finn from Jim\'s perspective — devastating, necessary, and ferociously funny. Hoffman\'s narration is The Guardian\'s Audiobook of the Week.',
     badges: ['Award Winner', 'Trending'],
     audibleUrl: 'https://www.audible.co.uk/pd/James-Audiobook/B0CW1D1LBT',
-    amazonUrl:  'https://www.amazon.co.uk/dp/0385550367'
+    amazonUrl:  'https://www.amazon.com/Audible-James/dp/B0CFYMW6G8'
   },
   {
     id: 11,
