@@ -105,5 +105,13 @@
   <script src="books.js"></script>
   <script src="main.js"></script>
 
+  <!-- Genius Link: auto-converts Amazon links to geo-targeted regional stores -->
+  <script type="text/javascript" src="//geniuslinkcdn.com/snippet.min.js" defer></script>
+  <script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function() {
+  var tsid = 427961;
+  Genius.amazon.convertLinks(tsid, true, "https://geni.us"); });
+  </script>
+
 </body>
 </html>
