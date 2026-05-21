@@ -35,14 +35,14 @@ const books = [
     title: 'Project Hail Mary',
     author: 'Andy Weir',
     narrator: 'Ray Porter',
-    coverImage: 'https://placehold.co/300x450/1a1a4e/ffffff?text=Project+Hail+Mary',
+    coverImage: 'https://m.media-amazon.com/images/I/81Nzlrfud+L._SL500_.jpg',
     duration: '16 hrs 10 mins',
-    rating: 4.9,
-    reviewCount: '87,241',
-    review: 'Possibly the best science fiction audiobook of the decade. A lone astronaut wakes with no memory on a mission to save Earth — what unfolds is funny, heartbreaking, and scientifically dazzling. Ray Porter\'s narration is some of the finest you\'ll find anywhere.',
-    badges: ['Bestseller', 'Critic\'s Pick', 'Science Fiction'],
+    rating: 4.7,
+    reviewCount: '241,734',
+    review: 'Now a major motion picture starring Ryan Gosling. A lone astronaut wakes with no memory on a mission to save Earth — what unfolds is funny, heartbreaking, and scientifically dazzling. Ray Porter\'s narration is some of the finest you\'ll find anywhere.',
+    badges: ['Bestseller', 'Critic\'s Pick', 'Film Adaptation'],
     audibleUrl: 'https://www.audible.co.uk/pd/Project-Hail-Mary-Audiobook/B08G9PRS1K',
-    amazonUrl:  'https://www.amazon.co.uk/dp/0593135202'
+    amazonUrl:  'https://www.amazon.com/Project-Hail-Mary/dp/B08GB58KD5'
   },
   {
     id: 3,
