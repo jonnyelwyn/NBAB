@@ -143,12 +143,12 @@ function spin() {
 
   const target    = pickTarget();
   const toTarget  = (target - currentIndex + books.length) % books.length;
-  const extraLaps = 1 + Math.floor(Math.random() * 2);
+  const extraLaps = 1;
 
   // Fast steps bring us to exactly SLOWDOWN_MS.length steps before target
   let fastSteps = extraLaps * books.length + toTarget - SLOWDOWN_MS.length;
-  // Ensure at least half a lap of visible fast spin
-  if (fastSteps < Math.ceil(books.length / 2)) fastSteps += books.length;
+  // Ensure at least a quarter lap of visible fast spin
+  if (fastSteps < Math.ceil(books.length / 4)) fastSteps += books.length;
 
   let step     = 0;
   let fastDelay = 42;
