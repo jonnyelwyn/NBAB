@@ -67,7 +67,7 @@ const books = [
     duration: '8 hrs 41 mins',
     rating: 4.8,
     reviewCount: '156,233',
-    review: 'The full-cast BBC production is a revelation — familiar as the story is, hearing it performed like a radio play makes it feel brand new. Essential for fans who think they\'ve experienced everything this world has to offer.',
+    review: 'An entirely new production with hundreds of unique voices and Dolby Atmos sound design — Hugh Laurie as Dumbledore, Riz Ahmed as Snape, Matthew Macfadyen as Voldemort, and Cush Jumbo narrating. The immersive audio makes Quidditch and Hogwarts feel genuinely cinematic. Wear headphones.',
     badges: ['Full Cast', 'Classic', 'Fan Favourite'],
     audibleUrl: 'https://www.audible.co.uk/pd/Harry-Potter-and-the-Philosophers-Stone-Audiobook/B017V4IWVG',
     amazonUrl:  'https://www.amazon.com/Harry-Potter-Philosophers-Stone-Full-Cast/dp/B0F14SX2V2'
