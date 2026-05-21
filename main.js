@@ -285,7 +285,7 @@ function renderCTA() {
        aria-label="Listen to ${esc(book.title)} on Audible">
       Listen Now on Audible
     </a>
-    <a href="${audible}" class="cta-secondary" target="_blank" rel="noopener sponsored">
+    <a href="${GENIUS_LINK}" class="cta-secondary" target="_blank" rel="noopener sponsored">
       ${esc(AUDIBLE_OFFER)}
     </a>
     <a href="${amazon}" class="cta-amazon" target="_blank" rel="noopener sponsored">

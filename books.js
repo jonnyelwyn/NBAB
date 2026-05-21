@@ -10,6 +10,7 @@
    ============================================================ */
 
 const AFFILIATE_TAG  = 'nextbestaudio-21';           // ← your Amazon Associates tag
+const GENIUS_LINK    = 'https://geni.us/nbab-audible'; // ← free trial geo-routed link
 const AUDIBLE_OFFER  = 'Start your free 30-day Audible trial'; // ← update with current offer
 const DEFAULT_INDEX  = 0;                            // ← which book shows first
 
