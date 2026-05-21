@@ -297,6 +297,7 @@ function renderCTA() {
 
 function affiliateUrl(base) {
   if (!base) return '#';
+  if (base.includes('tag=')) return base; // already has affiliate tag baked in
   const sep = base.includes('?') ? '&' : '?';
   return `${base}${sep}tag=${AFFILIATE_TAG}`;
 }

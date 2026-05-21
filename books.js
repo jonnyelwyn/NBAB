@@ -9,7 +9,7 @@
    ★ COVER IMAGES   → visit the Audible page, right-click cover → Copy Image Address
    ============================================================ */
 
-const AFFILIATE_TAG  = 'nextbestaudio-21';           // ← your Amazon Associates tag
+const AFFILIATE_TAG  = 'nbab-20';                    // ← your Amazon Associates tag
 const GENIUS_LINK    = 'https://geni.us/nbab-audible'; // ← free trial geo-routed link
 const AUDIBLE_OFFER  = 'Start your free 30-day Audible trial'; // ← update with current offer
 const DEFAULT_INDEX  = 0;                            // ← which book shows first
@@ -166,43 +166,15 @@ const books = [
     id: 11,
     title: 'Intermezzo',
     author: 'Sally Rooney',
-    narrator: 'Paul Nugent & Aoife McMahon',
-    coverImage: 'https://placehold.co/300x450/00695C/ffffff?text=Intermezzo',
-    duration: '13 hrs 24 mins',
-    rating: 4.4,
-    reviewCount: '31,204',
-    review: 'Rooney\'s most ambitious novel — two brothers grieving their father, both in complicated love affairs. Richer and more structurally inventive than her earlier work, and the dual narration gives each character a properly distinct inner life.',
+    narrator: 'Éanna Hardwicke',
+    coverImage: 'https://m.media-amazon.com/images/I/71WzEmo1IqL._SL500_.jpg',
+    duration: '16 hrs 30 mins',
+    rating: 4.1,
+    reviewCount: '20,776',
+    review: 'Rooney\'s most ambitious novel — two grieving brothers and the very different women they love, told in a style that is richer and more structurally inventive than her earlier work. Over one million copies sold. Éanna Hardwicke\'s narration captures the quiet devastation beneath every conversation with remarkable precision.',
     badges: ['Trending', 'Bestseller'],
-    audibleUrl: 'https://www.audible.co.uk/pd/Intermezzo-Audiobook/B0D6KLXN9T',
-    amazonUrl:  'https://www.amazon.co.uk/dp/0571365450'
-  },
-  {
-    id: 12,
-    title: 'A Little Life',
-    author: 'Hanya Yanagihara',
-    narrator: 'David Pittu',
-    coverImage: 'https://placehold.co/300x450/263238/ffffff?text=A+Little+Life',
-    duration: '32 hrs 47 mins',
-    rating: 4.8,
-    reviewCount: '54,109',
-    review: 'One of the most emotionally affecting novels of the century — four friends in New York, and the long shadow of one man\'s childhood trauma. Pittu\'s narration is extraordinary, holding you through what is genuinely the most demanding listen on this list.',
-    badges: ['Critic\'s Pick'],
-    audibleUrl: 'https://www.audible.co.uk/pd/A-Little-Life-Audiobook/B012JTQWPC',
-    amazonUrl:  'https://www.amazon.co.uk/dp/1447294157'
-  },
-  {
-    id: 13,
-    title: 'The Covenant of Water',
-    author: 'Abraham Verghese',
-    narrator: 'Soneela Nankani',
-    coverImage: 'https://placehold.co/300x450/01579B/ffffff?text=Covenant+of+Water',
-    duration: '24 hrs 2 mins',
-    rating: 4.8,
-    reviewCount: '37,829',
-    review: 'A multigenerational family saga set in South India across 77 years — vast, humane, and rich with medical and cultural detail. Nankani\'s narration is extraordinary: warm, precisely inflected, and perfectly suited to the novel\'s sweep.',
-    badges: ['Bestseller'],
-    audibleUrl: 'https://www.audible.co.uk/pd/The-Covenant-of-Water-Audiobook/B0BYWZCT5P',
-    amazonUrl:  'https://www.amazon.co.uk/dp/0802161960'
+    audibleUrl: 'https://www.amazon.com/Audible-Intermezzo/dp/B0CX95FYMJ?crid=2I1EVT9HC9HPV&dib=eyJ2IjoiMSJ9.ielrXWpHZ0k7meF7ZA7Gp7FBI-1PcQLv0SZjAJsHs9P8jXzKPCOVEJXb1dcHDleuwUBetLuiqGsF5ZIJoYs7kukMWa5VCTir25BXIUgp2Zm1uA1AOBXCJT51R5XtwZXh4NCflX6JE3gSsqUyrus4ynYykKwX3LfINy9o_fmrUTZ2OyDL4QARNeXsSY2r0Icc0LgdFjJ5qUexYln7uPPi77jiH5dMmfQrClJ2PWZ0w7A.pwieW-S14yoOMQUclMt2avk-lQSNM6ntJb5-RX_I9RE&dib_tag=se&keywords=intermezzo&qid=1779366859&s=audible&sprefix=intermezz%2Caudible%2C245&sr=1-1&linkCode=ll2&tag=nbab-20&linkId=c82dd72759c5bf05d24482506518870f&language=en_US&ref_=as_li_ss_tl',
+    amazonUrl:  'https://www.amazon.com/Audible-Intermezzo/dp/B0CX95FYMJ?crid=2I1EVT9HC9HPV&dib=eyJ2IjoiMSJ9.ielrXWpHZ0k7meF7ZA7Gp7FBI-1PcQLv0SZjAJsHs9P8jXzKPCOVEJXb1dcHDleuwUBetLuiqGsF5ZIJoYs7kukMWa5VCTir25BXIUgp2Zm1uA1AOBXCJT51R5XtwZXh4NCflX6JE3gSsqUyrus4ynYykKwX3LfINy9o_fmrUTZ2OyDL4QARNeXsSY2r0Icc0LgdFjJ5qUexYln7uPPi77jiH5dMmfQrClJ2PWZ0w7A.pwieW-S14yoOMQUclMt2avk-lQSNM6ntJb5-RX_I9RE&dib_tag=se&keywords=intermezzo&qid=1779366859&s=audible&sprefix=intermezz%2Caudible%2C245&sr=1-1&linkCode=ll2&tag=nbab-20&linkId=c82dd72759c5bf05d24482506518870f&language=en_US&ref_=as_li_ss_tl'
   },
   {
     id: 14,
@@ -215,8 +187,8 @@ const books = [
     reviewCount: '150,811',
     review: 'A Pulitzer Prize winner that retells David Copperfield in the opioid-ravaged Appalachian Mountains. Thurston\'s narration is one of the best performances in recent memory — raw, funny, and heartbreaking in equal measure.',
     badges: ['Award Winner', 'Critic\'s Pick', 'Bestseller'],
-    audibleUrl: 'https://www.amazon.com/Audible-Demon-Copperhead/dp/B0B2X423CV',
-    amazonUrl:  'https://www.amazon.com/Audible-Demon-Copperhead/dp/B0B2X423CV'
+    audibleUrl: 'https://www.amazon.com/Audible-Demon-Copperhead/dp/B0B2X423CV?crid=1UPD11TG7OHN8&dib=eyJ2IjoiMSJ9.N86xCOo7jL7j2xPyPAAfm3xma2XFQW5-tiFlmxoy10GocCU-mNWK9Bn9ULF5oNXRbONiwKdRnqf3juzLeVd3KjjgmwrMB3jzjxPiaaPy4MionFyZhcwAMW1QdnwXLqElTP5pjv4jJ_sMVZR5WFmsaA.K8xz7PpyRoFboEGwcz3wKd1miYbLn3l7BvHfMoDf00E&dib_tag=se&keywords=Demon+Copperhead&qid=1779365985&s=audible&sprefix=demon+copperhead%2Caudible%2C174&sr=1-1&linkCode=ll2&tag=nbab-20&linkId=d4c59cf07b7bed2cf70a62f5f039b6f1&language=en_US&ref_=as_li_ss_tl',
+    amazonUrl:  'https://www.amazon.com/Audible-Demon-Copperhead/dp/B0B2X423CV?crid=1UPD11TG7OHN8&dib=eyJ2IjoiMSJ9.N86xCOo7jL7j2xPyPAAfm3xma2XFQW5-tiFlmxoy10GocCU-mNWK9Bn9ULF5oNXRbONiwKdRnqf3juzLeVd3KjjgmwrMB3jzjxPiaaPy4MionFyZhcwAMW1QdnwXLqElTP5pjv4jJ_sMVZR5WFmsaA.K8xz7PpyRoFboEGwcz3wKd1miYbLn3l7BvHfMoDf00E&dib_tag=se&keywords=Demon+Copperhead&qid=1779365985&s=audible&sprefix=demon+copperhead%2Caudible%2C174&sr=1-1&linkCode=ll2&tag=nbab-20&linkId=d4c59cf07b7bed2cf70a62f5f039b6f1&language=en_US&ref_=as_li_ss_tl'
   },
   {
     id: 15,
@@ -229,10 +201,142 @@ const books = [
     reviewCount: '332,743',
     review: 'Vietnam War nurses who came home to no welcome, no recognition, no support. Soon to be a major motion picture. Hannah writes with great emotional intelligence, and Whelan — one of the finest audiobook narrators working today — gives this one absolutely everything she has.',
     badges: ['Trending', 'Bestseller', 'Historical Fiction', 'Film Adaptation'],
-    audibleUrl: 'https://www.amazon.com/Audible-The-Women/dp/B0C4ZYR3HQ',
-    amazonUrl:  'https://www.amazon.com/Audible-The-Women/dp/B0C4ZYR3HQ'
+    audibleUrl: 'https://www.amazon.com/Audible-The-Women/dp/B0C4ZYR3HQ?crid=4BPQ6WZ21CD1&dib=eyJ2IjoiMSJ9.oeO-1JSuVppcmuSEOV7Ko7pUm662zHPAdziwDyhO-rUM04qivXBDDajs8NSs4zUJ_ZPlP1PYIQda3_FYAuSGkCukc9CdYt5_frifFp2ma_z3b-sOpFUWyskW50Om3IxVsIJr-e7MCY563BeKbGvvaXESO9C1Awued-lEz3ju5uW7R0ngTlMmF7ceor21fUaw0wBosTK7uex1eXlvGVKm9PHMQYSJgdMP5oRozqVsINc._xhenJvhUCtzk26WDZUsxrD0PWtfGhS1WspysnbJt3s&dib_tag=se&keywords=The+Women&qid=1779366046&s=audible&sr=1-2&linkCode=ll2&tag=nbab-20&linkId=2f7eff8eb3a8eb334a72740df7182d0d&language=en_US&ref_=as_li_ss_tl',
+    amazonUrl:  'https://www.amazon.com/Audible-The-Women/dp/B0C4ZYR3HQ?crid=4BPQ6WZ21CD1&dib=eyJ2IjoiMSJ9.oeO-1JSuVppcmuSEOV7Ko7pUm662zHPAdziwDyhO-rUM04qivXBDDajs8NSs4zUJ_ZPlP1PYIQda3_FYAuSGkCukc9CdYt5_frifFp2ma_z3b-sOpFUWyskW50Om3IxVsIJr-e7MCY563BeKbGvvaXESO9C1Awued-lEz3ju5uW7R0ngTlMmF7ceor21fUaw0wBosTK7uex1eXlvGVKm9PHMQYSJgdMP5oRozqVsINc._xhenJvhUCtzk26WDZUsxrD0PWtfGhS1WspysnbJt3s&dib_tag=se&keywords=The+Women&qid=1779366046&s=audible&sr=1-2&linkCode=ll2&tag=nbab-20&linkId=2f7eff8eb3a8eb334a72740df7182d0d&language=en_US&ref_=as_li_ss_tl'
   }
   ,
+  {
+    id: 23,
+    title: 'That Will Never Work',
+    subtitle: 'The Birth of Netflix by the First CEO',
+    author: 'Marc Randolph',
+    narrator: 'Marc Randolph',
+    coverImage: 'https://m.media-amazon.com/images/I/81bTToEyXjL._SL500_.jpg',
+    duration: '11 hrs',
+    rating: 4.6,
+    reviewCount: '5,031',
+    review: 'The untold story of how Netflix went from a mad idea — renting DVDs by mail — to the most disruptive company of the twenty-first century. Author-narrated by co-founder Marc Randolph with the kind of candour only the person who lived it can deliver. In the tradition of Shoe Dog: messy, honest, and completely gripping.',
+    badges: ['Non-fiction', 'Business', 'Bestseller'],
+    audibleUrl: 'https://www.amazon.com/That-Will-Never-Work-audiobook/dp/B07RDYSQKM?crid=3MJRW1KLLEMK7&dib=eyJ2IjoiMSJ9.hHRsIhm7h32PRtPrsYlX-r_p9crox1XI1XZqjeA_lGlK3k3nEcB7xBLAf7AmEzRttl89BNDSYncXBUrfTe6uuw.iPj8WTTLx6qLKIbfYgsGE0pfguGTUoRIi10iz3Si8N4&dib_tag=se&keywords=that+will+never+work&qid=1779366813&s=audible&sprefix=that+will+never+wo%2Caudible%2C214&sr=1-2&linkCode=ll2&tag=nbab-20&linkId=da5fb955d3ebc4b8f97a9c97e639abad&language=en_US&ref_=as_li_ss_tl',
+    amazonUrl:  'https://www.amazon.com/That-Will-Never-Work-audiobook/dp/B07RDYSQKM?crid=3MJRW1KLLEMK7&dib=eyJ2IjoiMSJ9.hHRsIhm7h32PRtPrsYlX-r_p9crox1XI1XZqjeA_lGlK3k3nEcB7xBLAf7AmEzRttl89BNDSYncXBUrfTe6uuw.iPj8WTTLx6qLKIbfYgsGE0pfguGTUoRIi10iz3Si8N4&dib_tag=se&keywords=that+will+never+work&qid=1779366813&s=audible&sprefix=that+will+never+wo%2Caudible%2C214&sr=1-2&linkCode=ll2&tag=nbab-20&linkId=da5fb955d3ebc4b8f97a9c97e639abad&language=en_US&ref_=as_li_ss_tl'
+  },
+  {
+    id: 30,
+    title: 'Revenge of the Tipping Point',
+    subtitle: 'Overstories, Superspreaders and the Rise of Social Engineering',
+    author: 'Malcolm Gladwell',
+    narrator: 'Malcolm Gladwell',
+    coverImage: 'https://m.media-amazon.com/images/I/61jacMUyDGL._SL500_.jpg',
+    duration: '8 hrs 25 mins',
+    rating: 4.4,
+    reviewCount: '5,704',
+    review: 'Twenty-five years after The Tipping Point, Gladwell returns to reframe everything — this time exploring the dark side of social contagion, superspreaders, and the hidden mechanics of how ideas go wrong. Author-narrated in an immersive audio format with an original music score and first-person oral histories that are built for listening, not reading.',
+    badges: ['Non-fiction', 'Bestseller'],
+    audibleUrl: 'https://www.amazon.com/Revenge-Tipping-Point-Overstories-Superspreaders/dp/B0D5R7QKLM?crid=31SU217DIA3WD&dib=eyJ2IjoiMSJ9.fXncS5uZ8EnFQAeswEJlc9JQQIn6a0-oARzRYT62qaskqZkf9RvdrHdFJQatX0vxUSkLZ5hHlcV2JtEGP2x2qr1np0OdJgeVy4rhMRest3w.vHhoShogozlS_o_pBIHTp_wN4V2nNQH5e4CKX9phzTg&dib_tag=se&keywords=revenge+of+the+tipping+point+audio+book&qid=1779366748&sr=8-1&linkCode=ll2&tag=nbab-20&linkId=dc6655eac913716cb724e2be90b723ef&language=en_US&ref_=as_li_ss_tl',
+    amazonUrl:  'https://www.amazon.com/Revenge-Tipping-Point-Overstories-Superspreaders/dp/B0D5R7QKLM?crid=31SU217DIA3WD&dib=eyJ2IjoiMSJ9.fXncS5uZ8EnFQAeswEJlc9JQQIn6a0-oARzRYT62qaskqZkf9RvdrHdFJQatX0vxUSkLZ5hHlcV2JtEGP2x2qr1np0OdJgeVy4rhMRest3w.vHhoShogozlS_o_pBIHTp_wN4V2nNQH5e4CKX9phzTg&dib_tag=se&keywords=revenge+of+the+tipping+point+audio+book&qid=1779366748&sr=8-1&linkCode=ll2&tag=nbab-20&linkId=dc6655eac913716cb724e2be90b723ef&language=en_US&ref_=as_li_ss_tl'
+  },
+  {
+    id: 26,
+    title: 'Greenlights',
+    author: 'Matthew McConaughey',
+    narrator: 'Matthew McConaughey',
+    coverImage: 'https://m.media-amazon.com/images/I/81tHUufg2qL._SL500_.jpg',
+    duration: '6 hrs 51 mins',
+    rating: 4.6,
+    reviewCount: '74,843',
+    review: 'Fifty years of diaries, outlaw wisdom, and raucous stories from one of the most singular voices in Hollywood. McConaughey narrates his own life in his own unmistakable drawl — which means this is one of those audiobooks that simply cannot be replicated on the page. Includes an exclusive interview recorded during his 2021 book tour.',
+    badges: ['Non-fiction', 'Celebrity', 'Bestseller'],
+    audibleUrl: 'https://www.amazon.com/Greenlights/dp/B08DYFBB92?crid=T7G8GNMUJNGO&dib=eyJ2IjoiMSJ9.UABoeXTVXL0SsJNh-Qrd-cySZC1YZBNtNvTCwHsZVNJKGQUW5JINVFUSgVAP4m0KgbgrMwgqVaY9YXf4gKlvawzy3GvH1_8ZTkdm0cofWRif15wcr70ornu5n3wts5BdycPkslhABUjOeArhreDuXOlNN7AFzpAHGZEyzgB8x0K9wcwKCFB98Vee9bmzcl-HRS8APRIukMxxzgTZTDZckA.Gz7jFBNz8an-9n8POgJm4StKhPiO9zrilRik_6dWcUg&dib_tag=se&keywords=greenlights&qid=1779366698&s=audible&sprefix=greenlig%2Caudible%2C228&sr=1-1&linkCode=ll2&tag=nbab-20&linkId=9ea3056f4f58bce627cd5f2d1d489265&language=en_US&ref_=as_li_ss_tl',
+    amazonUrl:  'https://www.amazon.com/Greenlights/dp/B08DYFBB92?crid=T7G8GNMUJNGO&dib=eyJ2IjoiMSJ9.UABoeXTVXL0SsJNh-Qrd-cySZC1YZBNtNvTCwHsZVNJKGQUW5JINVFUSgVAP4m0KgbgrMwgqVaY9YXf4gKlvawzy3GvH1_8ZTkdm0cofWRif15wcr70ornu5n3wts5BdycPkslhABUjOeArhreDuXOlNN7AFzpAHGZEyzgB8x0K9wcwKCFB98Vee9bmzcl-HRS8APRIukMxxzgTZTDZckA.Gz7jFBNz8an-9n8POgJm4StKhPiO9zrilRik_6dWcUg&dib_tag=se&keywords=greenlights&qid=1779366698&s=audible&sprefix=greenlig%2Caudible%2C228&sr=1-1&linkCode=ll2&tag=nbab-20&linkId=9ea3056f4f58bce627cd5f2d1d489265&language=en_US&ref_=as_li_ss_tl'
+  },
+  {
+    id: 25,
+    title: 'The Martian',
+    author: 'Andy Weir',
+    narrator: 'Wil Wheaton',
+    coverImage: 'https://m.media-amazon.com/images/I/81pcgLoQw1L._SL500_.jpg',
+    duration: '10 hrs 59 mins',
+    rating: 4.6,
+    reviewCount: '182,907',
+    review: 'An astronaut stranded alone on Mars with no way to contact Earth and supplies that won\'t last long enough for a rescue. What follows is the most ingeniously funny survival story in science fiction. Wil Wheaton\'s narration captures Watney\'s relentless sarcasm perfectly — and this Audible-exclusive edition includes bonus content from Watney\'s writings not available anywhere else.',
+    badges: ['Bestseller', 'Sci-Fi', 'Film Adaptation'],
+    audibleUrl: 'https://www.amazon.com/The-Martian/dp/B082BHWQCJ?crid=30AAU4UKOA39E&dib=eyJ2IjoiMSJ9.bCa4cys4OuGVfdlxxZE__FYr2Dxd8_4yiAHe7zOMoRKybptStie7B50iTpg1v4KyNQ3DfB37pK8Pj6FJl82GCP-vO0E74aEpe03-mDvX7kcA_3AH_yi2niqhBC2LF5UgceZl4P9DNt9-iiJiYMkiyOHmEMt8o8Ol9SSxHYupPUJSIR4-oszhwFFnJ1sQstpQw2PhU0G8KWcG_RDMUekfLwZdfezRkNriKr7rqmrDjko.uJBi0CHc5WgybDx3hBpJ3VsoiiMjmKZmlTzwakp5F00&dib_tag=se&keywords=the+martian&qid=1779366664&s=audible&sprefix=the+martian%2Caudible%2C233&sr=1-1&linkCode=ll2&tag=nbab-20&linkId=81b88072dd066f8236b07f6c7c3ad4b9&language=en_US&ref_=as_li_ss_tl',
+    amazonUrl:  'https://www.amazon.com/The-Martian/dp/B082BHWQCJ?crid=30AAU4UKOA39E&dib=eyJ2IjoiMSJ9.bCa4cys4OuGVfdlxxZE__FYr2Dxd8_4yiAHe7zOMoRKybptStie7B50iTpg1v4KyNQ3DfB37pK8Pj6FJl82GCP-vO0E74aEpe03-mDvX7kcA_3AH_yi2niqhBC2LF5UgceZl4P9DNt9-iiJiYMkiyOHmEMt8o8Ol9SSxHYupPUJSIR4-oszhwFFnJ1sQstpQw2PhU0G8KWcG_RDMUekfLwZdfezRkNriKr7rqmrDjko.uJBi0CHc5WgybDx3hBpJ3VsoiiMjmKZmlTzwakp5F00&dib_tag=se&keywords=the+martian&qid=1779366664&s=audible&sprefix=the+martian%2Caudible%2C233&sr=1-1&linkCode=ll2&tag=nbab-20&linkId=81b88072dd066f8236b07f6c7c3ad4b9&language=en_US&ref_=as_li_ss_tl'
+  },
+  {
+    id: 28,
+    title: 'The Trading Game',
+    subtitle: 'A Confession',
+    author: 'Gary Stevenson',
+    narrator: 'Gary Stevenson',
+    coverImage: 'https://m.media-amazon.com/images/I/91VYWORIg7L._SL500_.jpg',
+    duration: '12 hrs 40 mins',
+    rating: 4.4,
+    reviewCount: '6,799',
+    review: 'A kid from East London becomes the most profitable trader at Citibank — dealing nearly a trillion dollars a day — and slowly loses his mind. Author-narrated with raw, street-level honesty. Irvine Welsh called it "The Wolf of Wall Street with a moral compass." The No.1 Sunday Times bestseller of 2024.',
+    badges: ['Non-fiction', 'Bestseller'],
+    audibleUrl: 'https://www.amazon.com/The-Trading-Game-A-Confession/dp/B0CJ9Q5CYX?crid=1RZFQ2WXAZEBP&dib=eyJ2IjoiMSJ9.RhS7u3S3MtuWMyoNeHa9Vlfcvufop7Mwg-kbKW3T3fMYLlSrmA4-UCJgAUjp0HK5-TULd6JqKBEpV_lcyVebKmS2-oeNQEkY_NsF0M4RS4LkFCxm8p8I6U2V51GZqceLl5TPibqZwvLJSgwR_XGQf7GPxQmxP7p9Xd5KGapIkYJUpGoFXSPo2I9PzBLHn3nLeMVBMiuSC-xT6rukYGdV48O4oGj3stUL7FWs57tLfhM.6ielIFTVMfbcCW4eCCt-BoU20O9UzuN7XUJ8YqS1AtE&dib_tag=se&keywords=the+trading+game&qid=1779366625&s=audible&sprefix=the+trading+gam%2Caudible%2C237&sr=1-1&linkCode=ll2&tag=nbab-20&linkId=349bf0f8a6a4c99ddcbfcadb18fd3679&language=en_US&ref_=as_li_ss_tl',
+    amazonUrl:  'https://www.amazon.com/The-Trading-Game-A-Confession/dp/B0CJ9Q5CYX?crid=1RZFQ2WXAZEBP&dib=eyJ2IjoiMSJ9.RhS7u3S3MtuWMyoNeHa9Vlfcvufop7Mwg-kbKW3T3fMYLlSrmA4-UCJgAUjp0HK5-TULd6JqKBEpV_lcyVebKmS2-oeNQEkY_NsF0M4RS4LkFCxm8p8I6U2V51GZqceLl5TPibqZwvLJSgwR_XGQf7GPxQmxP7p9Xd5KGapIkYJUpGoFXSPo2I9PzBLHn3nLeMVBMiuSC-xT6rukYGdV48O4oGj3stUL7FWs57tLfhM.6ielIFTVMfbcCW4eCCt-BoU20O9UzuN7XUJ8YqS1AtE&dib_tag=se&keywords=the+trading+game&qid=1779366625&s=audible&sprefix=the+trading+gam%2Caudible%2C237&sr=1-1&linkCode=ll2&tag=nbab-20&linkId=349bf0f8a6a4c99ddcbfcadb18fd3679&language=en_US&ref_=as_li_ss_tl'
+  },
+  {
+    id: 24,
+    title: 'Deep Work',
+    subtitle: 'Rules for Focused Success in a Distracted World',
+    author: 'Cal Newport',
+    narrator: 'Jeff Bottoms',
+    coverImage: 'https://m.media-amazon.com/images/I/817nqpGoWbL._SL500_.jpg',
+    duration: '7 hrs 44 mins',
+    rating: 4.6,
+    reviewCount: '36,188',
+    review: 'The ability to focus without distraction on a cognitively demanding task is becoming rare — and enormously valuable. Newport makes an airtight case for why, and then tells you exactly how to build that capacity. Short enough to finish in a weekend, practical enough to change how you work on Monday.',
+    badges: ['Non-fiction', 'Bestseller'],
+    audibleUrl: 'https://www.amazon.com/Deep-Work-Cal-Newport-audiobook/dp/B01CYKUC9C?crid=QS9NFXJ0ADX4&dib=eyJ2IjoiMSJ9.6apGUtNUVqfx1ce8nabtw2l-U2-7Tor9iaRY2G7FKr3xObxnawoMhvaEmnDZXm0dKbRbx5KjfN6M2MFDtGKrm4r2X4tEXB1jJfsUxovc8lYnrgv0tGGqyqvaD4J3KQHfZEKupWASVdfGXXOz-SGqkkO8brxg7CjEgvKcGjF7kHdSLcn5A_vG1nTRZ0EbUaMTAxpgVuNA-9Byp-sTGHpeTePuMvI6q0HoN_GSvGv8hoM.n1Gef7RWxiF6av2nvoVTsjzwDHCxFSmfrzvZ3Zk6iQM&dib_tag=se&keywords=deep+work&qid=1779366587&s=audible&sprefix=deep+wor%2Caudible%2C202&sr=1-1&linkCode=ll2&tag=nbab-20&linkId=99e5f9b524fed7718dccd97e77c39a89&language=en_US&ref_=as_li_ss_tl',
+    amazonUrl:  'https://www.amazon.com/Deep-Work-Cal-Newport-audiobook/dp/B01CYKUC9C?crid=QS9NFXJ0ADX4&dib=eyJ2IjoiMSJ9.6apGUtNUVqfx1ce8nabtw2l-U2-7Tor9iaRY2G7FKr3xObxnawoMhvaEmnDZXm0dKbRbx5KjfN6M2MFDtGKrm4r2X4tEXB1jJfsUxovc8lYnrgv0tGGqyqvaD4J3KQHfZEKupWASVdfGXXOz-SGqkkO8brxg7CjEgvKcGjF7kHdSLcn5A_vG1nTRZ0EbUaMTAxpgVuNA-9Byp-sTGHpeTePuMvI6q0HoN_GSvGv8hoM.n1Gef7RWxiF6av2nvoVTsjzwDHCxFSmfrzvZ3Zk6iQM&dib_tag=se&keywords=deep+work&qid=1779366587&s=audible&sprefix=deep+wor%2Caudible%2C202&sr=1-1&linkCode=ll2&tag=nbab-20&linkId=99e5f9b524fed7718dccd97e77c39a89&language=en_US&ref_=as_li_ss_tl'
+  },
+  {
+    id: 21,
+    title: 'Heat 2',
+    author: 'Michael Mann & Meg Gardiner',
+    narrator: 'Peter Giles',
+    coverImage: 'https://m.media-amazon.com/images/I/710ls7v-6YL._SL500_.jpg',
+    duration: '18 hrs 38 mins',
+    rating: 4.6,
+    reviewCount: '6,307',
+    review: 'Michael Mann — director of the 1995 film Heat — returns to Vincent Hanna and Neil McCauley in a novel that is both prequel and sequel to one of the greatest crime films ever made. Operatic in scope, cinematic in texture, and written with the same obsessive attention to detail that made the film a masterpiece. Peter Giles narrates with exactly the right weight.',
+    badges: ['Thriller', 'Bestseller', 'Film Adaptation'],
+    audibleUrl: 'https://www.amazon.com/Audible-Heat-2/dp/B0B1VZ21ZY?crid=Y56LVIF9LXAH&dib=eyJ2IjoiMSJ9.ij1xIlz6BRZl9iaj5SECPG9-kcL4DJaRWvV9wXeduMw4SLx9Gdy4LA7HgaB0SzArKW1nl5ZNfJx-LXSU8qFLsob5oXB1ZhNgHv_-6IM9sAJwL-V1yCX9wc4E-oSoEGeBT6kgLTUVDxR_teBY6TUxWLJRBcayfo5Debm8qnWfU-C_2omNWIWZccW0pt791EhP_9sURTlmIuW2-z5z07oTHT_AgWQMA-WXphhyPK8sYCE.4dxIa5j3crNb-53dFtnlUVM5P0zYoADXGDuU3QBPOqk&dib_tag=se&keywords=heat+2&qid=1779366552&s=audible&sprefix=heat+2%2Caudible%2C285&sr=1-1&linkCode=ll2&tag=nbab-20&linkId=bbc8ecfb267a57663feeb3ffbd6d302d&language=en_US&ref_=as_li_ss_tl',
+    amazonUrl:  'https://www.amazon.com/Audible-Heat-2/dp/B0B1VZ21ZY?crid=Y56LVIF9LXAH&dib=eyJ2IjoiMSJ9.ij1xIlz6BRZl9iaj5SECPG9-kcL4DJaRWvV9wXeduMw4SLx9Gdy4LA7HgaB0SzArKW1nl5ZNfJx-LXSU8qFLsob5oXB1ZhNgHv_-6IM9sAJwL-V1yCX9wc4E-oSoEGeBT6kgLTUVDxR_teBY6TUxWLJRBcayfo5Debm8qnWfU-C_2omNWIWZccW0pt791EhP_9sURTlmIuW2-z5z07oTHT_AgWQMA-WXphhyPK8sYCE.4dxIa5j3crNb-53dFtnlUVM5P0zYoADXGDuU3QBPOqk&dib_tag=se&keywords=heat+2&qid=1779366552&s=audible&sprefix=heat+2%2Caudible%2C285&sr=1-1&linkCode=ll2&tag=nbab-20&linkId=bbc8ecfb267a57663feeb3ffbd6d302d&language=en_US&ref_=as_li_ss_tl'
+  },
+  {
+    id: 18,
+    title: 'The Apollo Murders',
+    subtitle: 'Book 1 of the Apollo Murders Series',
+    author: 'Chris Hadfield',
+    narrator: 'Ray Porter',
+    coverImage: 'https://m.media-amazon.com/images/I/819kPe+XOGL._SL500_.jpg',
+    duration: '15 hrs 14 mins',
+    rating: 4.4,
+    reviewCount: '5,673',
+    review: 'A Cold War thriller written by a former Commander of the International Space Station — which means the g-forces, the weightlessness, and the lunar surface feel terrifyingly real. 1973: a secret Apollo mission, Soviet rivals, and something very wrong on board. Andy Weir called it "an exciting journey to an alternate past." Ray Porter is the ideal narrator.',
+    badges: ['Thriller', 'Series', 'Sci-Fi'],
+    audibleUrl: 'https://www.amazon.com/The-Apollo-Murders/dp/B08W9BL4S6?crid=1RFCDSMCSWPHW&dib=eyJ2IjoiMSJ9.8aXccI6D39HlOaDTFS6wYZcvQmPw4P9HglepYNmPAcHGjHj071QN20LucGBJIEps.L9h4yldY9DKJhmcB5otMi8KhQxUQ7vHybmR92f_ZhWw&dib_tag=se&keywords=the+apollo+murders&qid=1779366507&s=audible&sprefix=the+apollo+murder%2Caudible%2C203&sr=1-1&linkCode=ll2&tag=nbab-20&linkId=3f0ae382fd93ff2d3e51d33bbafac613&language=en_US&ref_=as_li_ss_tl',
+    amazonUrl:  'https://www.amazon.com/The-Apollo-Murders/dp/B08W9BL4S6?crid=1RFCDSMCSWPHW&dib=eyJ2IjoiMSJ9.8aXccI6D39HlOaDTFS6wYZcvQmPw4P9HglepYNmPAcHGjHj071QN20LucGBJIEps.L9h4yldY9DKJhmcB5otMi8KhQxUQ7vHybmR92f_ZhWw&dib_tag=se&keywords=the+apollo+murders&qid=1779366507&s=audible&sprefix=the+apollo+murder%2Caudible%2C203&sr=1-1&linkCode=ll2&tag=nbab-20&linkId=3f0ae382fd93ff2d3e51d33bbafac613&language=en_US&ref_=as_li_ss_tl'
+  },
+  {
+    id: 16,
+    title: 'Unreasonable Hospitality',
+    subtitle: 'The Remarkable Power of Giving People More Than They Expect',
+    author: 'Will Guidara',
+    narrator: 'Will Guidara',
+    coverImage: 'https://m.media-amazon.com/images/I/71N5Tt4HYHL._SL500_.jpg',
+    duration: '8 hrs 37 mins',
+    rating: 4.8,
+    reviewCount: '6,624',
+    review: 'How Will Guidara took Eleven Madison Park from a struggling brasserie to the best restaurant in the world — through obsessive, over-the-top, genuinely unreasonable generosity. Author-narrated with the kind of infectious conviction that makes you want to go back to work. Applies to every business, not just hospitality.',
+    badges: ['Non-fiction', 'Business', 'Bestseller'],
+    audibleUrl: 'https://www.amazon.com/Unreasonable-Hospitality-Remarkable-Giving-People/dp/B0CPYPR7M6?crid=3SFD1S6DYHJGF&dib=eyJ2IjoiMSJ9.a1acU__HoiM3lyyTMByYf06HwmkBXGhDw9qdOoT5RcA.ZYxYqEfyptzVYX0c4RlEjB5NMeWAgAhtbVqPOY-8nFY&dib_tag=se&keywords=unreasonable+hospitality&qid=1779366467&s=audible&sprefix=unreasona%2Caudible%2C233&sr=1-1&linkCode=ll2&tag=nbab-20&linkId=edd9499ca78f39c13214d57d92a51773&language=en_US&ref_=as_li_ss_tl',
+    amazonUrl:  'https://www.amazon.com/Unreasonable-Hospitality-Remarkable-Giving-People/dp/B0CPYPR7M6?crid=3SFD1S6DYHJGF&dib=eyJ2IjoiMSJ9.a1acU__HoiM3lyyTMByYf06HwmkBXGhDw9qdOoT5RcA.ZYxYqEfyptzVYX0c4RlEjB5NMeWAgAhtbVqPOY-8nFY&dib_tag=se&keywords=unreasonable+hospitality&qid=1779366467&s=audible&sprefix=unreasona%2Caudible%2C233&sr=1-1&linkCode=ll2&tag=nbab-20&linkId=edd9499ca78f39c13214d57d92a51773&language=en_US&ref_=as_li_ss_tl'
+  },
   {
     id: 31,
     title: 'It Ends with Us',
@@ -245,8 +349,8 @@ const books = [
     reviewCount: '408,501',
     review: 'The book that launched a thousand TikToks — and earned every one of them. A young woman in a new relationship can\'t stop thinking about her first love, and what unfolds is far more honest and painful than the cover suggests. Now a major motion picture starring Blake Lively. Olivia Song\'s narration is tender and precise.',
     badges: ['Trending', 'Bestseller', 'Film Adaptation', 'Romance'],
-    audibleUrl: 'https://www.amazon.com/It-Ends-with-Us-Colleen-Hoover-audiobook/dp/B01GGU0XWC',
-    amazonUrl:  'https://www.amazon.com/It-Ends-with-Us-Colleen-Hoover-audiobook/dp/B01GGU0XWC'
+    audibleUrl: 'https://www.amazon.com/It-Ends-with-Us-Colleen-Hoover-audiobook/dp/B01GGU0XWC?crid=1FJ0OG4NNASD3&dib=eyJ2IjoiMSJ9.5yT-IoCXo2VVSpjX3pfF4G_WqRm3OumulJ1vBi8PxLhLXR22rkFF79Q8Ma20yIsMFxYd2_V7Gsqm66am4VWfO_rl9c044RIc-QFIOwP9zTJVbkfCLIdj4K1dHXJ0KRN9G8HLH9Q6NnqWxUsQlfpwj2luJBZ5UBDCf7xcRmPFOGEN_OPe3Fdmr1ZEbqZC5SYDyAfNSAU1AR_2OI2dTXXr7iqXKxABVi5Ewz04Va8lt3Q.xE9jZA_NnXxicxVtMAhhnoF-Yw4-3dVQTH0dT5LrtME&dib_tag=se&keywords=it+ends+with+us+colleen+hoover&qid=1779366088&s=audible&sprefix=it+ends%2Caudible%2C173&sr=1-1&linkCode=ll2&tag=nbab-20&linkId=c5d08eca7ed328852e0f666c3bd3b717&language=en_US&ref_=as_li_ss_tl',
+    amazonUrl:  'https://www.amazon.com/It-Ends-with-Us-Colleen-Hoover-audiobook/dp/B01GGU0XWC?crid=1FJ0OG4NNASD3&dib=eyJ2IjoiMSJ9.5yT-IoCXo2VVSpjX3pfF4G_WqRm3OumulJ1vBi8PxLhLXR22rkFF79Q8Ma20yIsMFxYd2_V7Gsqm66am4VWfO_rl9c044RIc-QFIOwP9zTJVbkfCLIdj4K1dHXJ0KRN9G8HLH9Q6NnqWxUsQlfpwj2luJBZ5UBDCf7xcRmPFOGEN_OPe3Fdmr1ZEbqZC5SYDyAfNSAU1AR_2OI2dTXXr7iqXKxABVi5Ewz04Va8lt3Q.xE9jZA_NnXxicxVtMAhhnoF-Yw4-3dVQTH0dT5LrtME&dib_tag=se&keywords=it+ends+with+us+colleen+hoover&qid=1779366088&s=audible&sprefix=it+ends%2Caudible%2C173&sr=1-1&linkCode=ll2&tag=nbab-20&linkId=c5d08eca7ed328852e0f666c3bd3b717&language=en_US&ref_=as_li_ss_tl'
   },
   {
     id: 35,
@@ -259,8 +363,8 @@ const books = [
     reviewCount: '116,785',
     review: 'Sunday Times Memoir of the Year 2023. Author-narrated — which means you\'re hearing it directly from the person at the centre of one of the most extraordinary family stories of the century. Whatever your prior view, Harry\'s voice gives the grief, the anger, and the confusion a raw credibility no actor could replicate.',
     badges: ['Trending', 'Bestseller', 'Celebrity'],
-    audibleUrl: 'https://www.amazon.com/Audible-Spare/dp/B0BKQQ2PQN',
-    amazonUrl:  'https://www.amazon.com/Audible-Spare/dp/B0BKQQ2PQN'
+    audibleUrl: 'https://www.amazon.com/Audible-Spare/dp/B0BKQQ2PQN?crid=1GUK7S9LNBIO8&dib=eyJ2IjoiMSJ9.b2VEoQoCDwLrH9QYULwAeasAKBqeKn2OoRE_58E7sAovBgqojGjP2iQfCh1_h49uLt7EKAylmxIHW5526jbkF11PO2NX4nCWxjmvovk7MJMahZeu8LJ24FzpAiaXWH2yEqA6diEKoYRI_ogQl4n3yDFRu-NYokeiDs2SzzMu534.MjHhNYCsGXIHJ0PA5G4SC08cpcS5CTg0WctCXTuo85w&dib_tag=se&keywords=Spare+%E2%80%94+Prince+Harry&qid=1779366282&s=audible&sprefix=spare+prince+harry%2Caudible%2C158&sr=1-1&linkCode=ll2&tag=nbab-20&linkId=f2e1fe2c8faa8ad51952b29c348d3868&language=en_US&ref_=as_li_ss_tl',
+    amazonUrl:  'https://www.amazon.com/Audible-Spare/dp/B0BKQQ2PQN?crid=1GUK7S9LNBIO8&dib=eyJ2IjoiMSJ9.b2VEoQoCDwLrH9QYULwAeasAKBqeKn2OoRE_58E7sAovBgqojGjP2iQfCh1_h49uLt7EKAylmxIHW5526jbkF11PO2NX4nCWxjmvovk7MJMahZeu8LJ24FzpAiaXWH2yEqA6diEKoYRI_ogQl4n3yDFRu-NYokeiDs2SzzMu534.MjHhNYCsGXIHJ0PA5G4SC08cpcS5CTg0WctCXTuo85w&dib_tag=se&keywords=Spare+%E2%80%94+Prince+Harry&qid=1779366282&s=audible&sprefix=spare+prince+harry%2Caudible%2C158&sr=1-1&linkCode=ll2&tag=nbab-20&linkId=f2e1fe2c8faa8ad51952b29c348d3868&language=en_US&ref_=as_li_ss_tl'
   },
   {
     id: 34,
@@ -273,8 +377,8 @@ const books = [
     reviewCount: '97,416',
     review: 'Told entirely in oral history — interviews, arguments, contradictions — about a fictional 1970s rock band at the peak of their fame and the night it all fell apart. The full cast of 16 narrators makes this feel less like a novel and more like a documentary you can\'t stop listening to. Now a hit Amazon Prime TV series.',
     badges: ['Trending', 'Bestseller', 'TV Adaptation', 'Full Cast'],
-    audibleUrl: 'https://www.amazon.com/Daisy-Jones-and-Six-audiobook/dp/B07GX1DPFB',
-    amazonUrl:  'https://www.amazon.com/Daisy-Jones-and-Six-audiobook/dp/B07GX1DPFB'
+    audibleUrl: 'https://www.amazon.com/Daisy-Jones-and-Six-audiobook/dp/B07GX1DPFB?crid=1SRJVWBCUOVD8&dib=eyJ2IjoiMSJ9.ZPs-Nq1lL3Vy2z580t-ei-m-MQ_7NdRB4ufw6bHrw73EawzGDr-AtMyEegUQ4JJm8vNMwytrHV3P3itzqeg67Xp7Lk8k9EKXiBggxHKZibWO6HBB9jYQlHP1u3BeW_QQ.G0nVRXdCDEMBHhSE2Cb7TdTTIpY5xZGAbe5ZK-ugdh4&dib_tag=se&keywords=Daisy+Jones+and+the+Six&nsdOptOutParam=true&qid=1779366236&s=audible&sr=1-1&linkCode=ll2&tag=nbab-20&linkId=a1e70f54e5feece19ef4e8ce2cd59d2e&language=en_US&ref_=as_li_ss_tl',
+    amazonUrl:  'https://www.amazon.com/Daisy-Jones-and-Six-audiobook/dp/B07GX1DPFB?crid=1SRJVWBCUOVD8&dib=eyJ2IjoiMSJ9.ZPs-Nq1lL3Vy2z580t-ei-m-MQ_7NdRB4ufw6bHrw73EawzGDr-AtMyEegUQ4JJm8vNMwytrHV3P3itzqeg67Xp7Lk8k9EKXiBggxHKZibWO6HBB9jYQlHP1u3BeW_QQ.G0nVRXdCDEMBHhSE2Cb7TdTTIpY5xZGAbe5ZK-ugdh4&dib_tag=se&keywords=Daisy+Jones+and+the+Six&nsdOptOutParam=true&qid=1779366236&s=audible&sr=1-1&linkCode=ll2&tag=nbab-20&linkId=a1e70f54e5feece19ef4e8ce2cd59d2e&language=en_US&ref_=as_li_ss_tl'
   },
   {
     id: 33,
@@ -288,8 +392,8 @@ const books = [
     reviewCount: '277,883',
     review: 'A reclusive Hollywood icon finally agrees to tell the truth about her glamorous, scandalous life — seven husbands, ruthless ambition, and a great forbidden love. The full cast narration is perfectly matched to the story\'s scope and theatricality. Soon to be a Netflix film. A TikTok sensation that fully deserved it.',
     badges: ['Trending', 'Bestseller', 'TV Adaptation', 'Romance'],
-    audibleUrl: 'https://www.amazon.com/Seven-Husbands-of-Evelyn-Hugo/dp/B09GPV5R42',
-    amazonUrl:  'https://www.amazon.com/Seven-Husbands-of-Evelyn-Hugo/dp/B09GPV5R42'
+    audibleUrl: 'https://www.amazon.com/Seven-Husbands-of-Evelyn-Hugo/dp/B09GPV5R42?crid=2I14I1WU588SL&dib=eyJ2IjoiMSJ9.t-3putqLnDfhG_Tm8TPLWfB8W2yK2B7Yi2xMkaZX1p7GjHj071QN20LucGBJIEps.KLb5V1SR9uUYe_jMUxL-x_akbV1ohCbyiCui9yAXEE8&dib_tag=se&keywords=The+Seven+Husbands+of+Evelyn+Hugo&nsdOptOutParam=true&qid=1779366199&s=audible&sr=1-1&linkCode=ll2&tag=nbab-20&linkId=999797ca67afe66c8620fb8f31b36b57&language=en_US&ref_=as_li_ss_tl',
+    amazonUrl:  'https://www.amazon.com/Seven-Husbands-of-Evelyn-Hugo/dp/B09GPV5R42?crid=2I14I1WU588SL&dib=eyJ2IjoiMSJ9.t-3putqLnDfhG_Tm8TPLWfB8W2yK2B7Yi2xMkaZX1p7GjHj071QN20LucGBJIEps.KLb5V1SR9uUYe_jMUxL-x_akbV1ohCbyiCui9yAXEE8&dib_tag=se&keywords=The+Seven+Husbands+of+Evelyn+Hugo&nsdOptOutParam=true&qid=1779366199&s=audible&sr=1-1&linkCode=ll2&tag=nbab-20&linkId=999797ca67afe66c8620fb8f31b36b57&language=en_US&ref_=as_li_ss_tl'
   },
   {
     id: 32,
@@ -302,8 +406,8 @@ const books = [
     reviewCount: '468,131',
     review: 'A struggling writer accepts a job from the husband of an injured bestselling author — and finds an unfinished autobiography never meant to be read. Sexy, twisted, and deeply unsettling. The dual narration between Johansson and Landon gives the story exactly the sinister double-vision it needs. Now a major motion picture.',
     badges: ['Trending', 'Thriller', 'Bestseller', 'Film Adaptation'],
-    audibleUrl: 'https://www.amazon.com/Verity-Colleen-Hoover-audiobook/dp/B07Q4XWX8C',
-    amazonUrl:  'https://www.amazon.com/Verity-Colleen-Hoover-audiobook/dp/B07Q4XWX8C'
+    audibleUrl: 'https://www.amazon.com/Verity-Colleen-Hoover-audiobook/dp/B07Q4XWX8C?crid=3AA1G9L3CZX29&dib=eyJ2IjoiMSJ9.d-HgSt-ON2386k4UrzrzyJNG2fJDp3WRZd-4erifA5Aysub1Swn2UHD329GCr2NlcuYIAQcD0tOsxqTgFyWDpCLwQoQhVboNq9k8dgWpTHWmVhb7K9nF4HiqEsKcy7BYPgJXy8JX1OLcGswFNhd28ugXQ7DhPRwxM89EZ9rDkcGPmZLrkwCTJV_YqCQCfihdIDOweKtEhUi2OF_T_UsZHZuqWpac8L5bxE34UpC2dqw.eLFa3NaQHM8SlVH_zOoVpVkRL9HEdvuQNar1PuqRFpU&dib_tag=se&keywords=Verity&qid=1779366152&s=audible&sr=1-1&linkCode=ll2&tag=nbab-20&linkId=1bfdcdd3cf457204aacfc1bb87c9179d&language=en_US&ref_=as_li_ss_tl',
+    amazonUrl:  'https://www.amazon.com/Verity-Colleen-Hoover-audiobook/dp/B07Q4XWX8C?crid=3AA1G9L3CZX29&dib=eyJ2IjoiMSJ9.d-HgSt-ON2386k4UrzrzyJNG2fJDp3WRZd-4erifA5Aysub1Swn2UHD329GCr2NlcuYIAQcD0tOsxqTgFyWDpCLwQoQhVboNq9k8dgWpTHWmVhb7K9nF4HiqEsKcy7BYPgJXy8JX1OLcGswFNhd28ugXQ7DhPRwxM89EZ9rDkcGPmZLrkwCTJV_YqCQCfihdIDOweKtEhUi2OF_T_UsZHZuqWpac8L5bxE34UpC2dqw.eLFa3NaQHM8SlVH_zOoVpVkRL9HEdvuQNar1PuqRFpU&dib_tag=se&keywords=Verity&qid=1779366152&s=audible&sr=1-1&linkCode=ll2&tag=nbab-20&linkId=1bfdcdd3cf457204aacfc1bb87c9179d&language=en_US&ref_=as_li_ss_tl'
   },
   {
     id: 17,
@@ -317,8 +421,8 @@ const books = [
     reviewCount: '5,903',
     review: 'Seven rules for a meaningful life, narrated by the man who actually lived them — bodybuilder, movie star, governor. Schwarzenegger\'s voice is exactly what you\'d expect: direct, earnest, and surprisingly moving. No self-pity, no excuses. One of the most motivating listens on this list.',
     badges: ['Non-fiction', 'Celebrity', 'Bestseller'],
-    audibleUrl: 'https://www.amazon.com/Be-Useful-Seven-Tools-Life/dp/B0C2HQRSVY',
-    amazonUrl:  'https://www.amazon.com/Be-Useful-Seven-Tools-Life/dp/B0C2HQRSVY'
+    audibleUrl: 'https://www.amazon.com/Be-Useful-Seven-Tools-Life/dp/B0C2HQRSVY?crid=36YPR2EW2TZ3U&dib=eyJ2IjoiMSJ9.XfDICX7bBntu0O2IE4WkidH2TDbO_QTDG0vziRLXIwCdFEZ2WCuT7DWRfY94AuUJ245G4A9R3YIs6RpXN8KB9JkJ-ZVNt_7SI-Lrn699VrQsyQoHCPA9HDbiru-U8DI4d9bH-DBt66Uj-HA0T2u4ADHoFEP2w0EboliKlyvA_TyfjuZETc4obYrlAVzxoa8NOnt2XdFbOsfyZdnsa1rw7nE_0rfinQnZ1rQwAyFAo.ZdnMght2H4AiBZrqj4kXR9hQLoLTz1I3TplWkWzGtD8&dib_tag=se&keywords=be+useful&qid=1779370533&s=audible&sprefix=be+useful%2Caudible%2C183&sr=1-1&linkCode=ll2&tag=nbab-20&linkId=6299151ef68ef922a1b184e42d598fb5&language=en_US&ref_=as_li_ss_tl',
+    amazonUrl:  'https://www.amazon.com/Be-Useful-Seven-Tools-Life/dp/B0C2HQRSVY?crid=36YPR2EW2TZ3U&dib=eyJ2IjoiMSJ9.XfDICX7bBntu0O2IE4WkidH2TDbO_QTDG0vziRLXIwCdFEZ2WCuT7DWRfY94AuUJ245G4A9R3YIs6RpXN8KB9JkJ-ZVNt_7SI-Lrn699VrQsyQoHCPA9HDbiru-U8DI4d9bH-DBt66Uj-HA0T2u4ADHoFEP2w0EboliKlyvA_TyfjuZETc4obYrlAVzxoa8NOnt2XdFbOsfyZdnsa1rw7nE_0rfinQnZ1rQwAyFAo.ZdnMght2H4AiBZrqj4kXR9hQLoLTz1I3TplWkWzGtD8&dib_tag=se&keywords=be+useful&qid=1779370533&s=audible&sprefix=be+useful%2Caudible%2C183&sr=1-1&linkCode=ll2&tag=nbab-20&linkId=6299151ef68ef922a1b184e42d598fb5&language=en_US&ref_=as_li_ss_tl'
   },
   {
     id: 22,
@@ -332,8 +436,8 @@ const books = [
     reviewCount: '2,207',
     review: 'Ogilvy vice-chairman Rory Sutherland dismantles the myth of rational decision-making with jaw-dropping examples and genuine wit. Why does Red Bull taste terrible and sell billions? Why do countdown boards at train stations reduce frustration without speeding up trains? Sutherland narrates himself, and the effect is electric.',
     badges: ['Non-fiction', 'Critic\'s Pick'],
-    audibleUrl: 'https://www.amazon.com/Alchemy-Rory-Sutherland-audiobook/dp/B07KQGCTRW',
-    amazonUrl:  'https://www.amazon.com/Alchemy-Rory-Sutherland-audiobook/dp/B07KQGCTRW'
+    audibleUrl: 'https://www.amazon.com/Alchemy-Rory-Sutherland-audiobook/dp/B07KQGCTRW?crid=HOFILSRP3ADO&dib=eyJ2IjoiMSJ9.Fm9_AL8TK04AWbBn07_U2oauy8qbnkbxslpJP-rHbj5hytbIzb69X-FGLhDXuJ_GWedVu9BCa1bvPZuHE13Dtij9gEyIgAfwLgqD-JlmgzRf1tmJOmRjssNeq9lFEt1ToXuwVTl-LH_4jjhMDj2oIoaOuN_KQaJrBRz3ppdx2B1S1mqdpB7khlQL6SzxT1v2KXJfYSKGtzh7TRPaS4ruRNZTw5riPGD1LQV9duPSFbs.HDbRWj-K--_L3YgAiSTQK38xw9vOg_v5JBKqd4IXxno&dib_tag=se&keywords=alchemy&qid=1779370561&s=audible&sprefix=alchemy%2Caudible%2C184&sr=1-3&linkCode=ll2&tag=nbab-20&linkId=4f2adaf8b5ad400d334f0c8304827a3d&language=en_US&ref_=as_li_ss_tl',
+    amazonUrl:  'https://www.amazon.com/Alchemy-Rory-Sutherland-audiobook/dp/B07KQGCTRW?crid=HOFILSRP3ADO&dib=eyJ2IjoiMSJ9.Fm9_AL8TK04AWbBn07_U2oauy8qbnkbxslpJP-rHbj5hytbIzb69X-FGLhDXuJ_GWedVu9BCa1bvPZuHE13Dtij9gEyIgAfwLgqD-JlmgzRf1tmJOmRjssNeq9lFEt1ToXuwVTl-LH_4jjhMDj2oIoaOuN_KQaJrBRz3ppdx2B1S1mqdpB7khlQL6SzxT1v2KXJfYSKGtzh7TRPaS4ruRNZTw5riPGD1LQV9duPSFbs.HDbRWj-K--_L3YgAiSTQK38xw9vOg_v5JBKqd4IXxno&dib_tag=se&keywords=alchemy&qid=1779370561&s=audible&sprefix=alchemy%2Caudible%2C184&sr=1-3&linkCode=ll2&tag=nbab-20&linkId=4f2adaf8b5ad400d334f0c8304827a3d&language=en_US&ref_=as_li_ss_tl'
   },
   {
     id: 29,
@@ -347,8 +451,8 @@ const books = [
     reviewCount: '1,921',
     review: 'A genuinely counter-cultural business book: what if growth is the wrong goal? Jarvis makes a calm, methodical case for staying deliberately small — more freedom, more profit, fewer meetings. Essential listening for anyone running their own thing or considering it. Sam Woolf\'s narration is clean and unfussy, letting the ideas do the work.',
     badges: ['Non-fiction', 'Business'],
-    audibleUrl: 'https://www.amazon.com/Company-of-One-Paul-Jarvis-audiobook/dp/B07LGD1VMJ',
-    amazonUrl:  'https://www.amazon.com/Company-of-One-Paul-Jarvis-audiobook/dp/B07LGD1VMJ'
+    audibleUrl: 'https://www.amazon.com/Company-of-One-Paul-Jarvis-audiobook/dp/B07LGD1VMJ?crid=3G6E0MWI7AMO7&dib=eyJ2IjoiMSJ9.-cTJ0GciiatR57eVEFoGhYo9JuST6X2LQyki3L7VtuEw5WvPbaZe_XDNWd-Jssrp-7VmZYhrS_ggaaYza9vLSJySlSBhEuII1mr9elYAUI_oov6kUh_dh4b90MfHPT3F-oTyWpLdWAuE4KxacgjGqg.eXPSp9PaNMQYHhAgXe558iqga9BifGoVvOL_nJvvq_E&dib_tag=se&keywords=company+of+one&qid=1779365894&s=audible&sprefix=company+of+on%2Caudible%2C179&sr=1-1&linkCode=ll2&tag=nbab-20&linkId=88fe08440700ccec6349302909e5ecc2&language=en_US&ref_=as_li_ss_tl',
+    amazonUrl:  'https://www.amazon.com/Company-of-One-Paul-Jarvis-audiobook/dp/B07LGD1VMJ?crid=3G6E0MWI7AMO7&dib=eyJ2IjoiMSJ9.-cTJ0GciiatR57eVEFoGhYo9JuST6X2LQyki3L7VtuEw5WvPbaZe_XDNWd-Jssrp-7VmZYhrS_ggaaYza9vLSJySlSBhEuII1mr9elYAUI_oov6kUh_dh4b90MfHPT3F-oTyWpLdWAuE4KxacgjGqg.eXPSp9PaNMQYHhAgXe558iqga9BifGoVvOL_nJvvq_E&dib_tag=se&keywords=company+of+one&qid=1779365894&s=audible&sprefix=company+of+on%2Caudible%2C179&sr=1-1&linkCode=ll2&tag=nbab-20&linkId=88fe08440700ccec6349302909e5ecc2&language=en_US&ref_=as_li_ss_tl'
   },
   {
     id: 27,
@@ -362,7 +466,7 @@ const books = [
     reviewCount: '63,061',
     review: 'One of Bill Gates\' five favourite books ever written, and it\'s easy to see why. Knight traces Nike from a $50 bet to a $30 billion empire with rare honesty — the failures, the near-collapses, the relationships. Norbert Leo Butz brings exactly the right pace and warmth to what is genuinely one of the great business memoirs.',
     badges: ['Non-fiction', 'Bestseller'],
-    audibleUrl: 'https://www.amazon.com/Shoe-Dog-Phil-Knight-audiobook/dp/B01CRJA470',
-    amazonUrl:  'https://www.amazon.com/Shoe-Dog-Phil-Knight-audiobook/dp/B01CRJA470'
+    audibleUrl: 'https://www.amazon.com/Shoe-Dog-Phil-Knight-audiobook/dp/B01CRJA470?crid=2GP42YJ2YC26D&dib=eyJ2IjoiMSJ9.jOjyM9oEG5ZRK4lKHP_6u_eyAAYH5Twf_Jcz5zyGUEZnp_Hd1JxBtAa4xVXovyq7s88VZGfenNtEE8NzFmQR6rkWYD00Duh9XHYY0VvvN30pZadXR74GihlUz-xeQDY72vM33CgAt6CnFa4fE-W9sKOAzm0aGYqWH81jDTm6cd9s2g6Vj736cfpOhC6DdcyawReNMyOkriAmPH8v3qNE4vewqIzk9K4ZZxBGGfzZSZE.x2KeT-vsnGyibMpfxPtPPyOmgSk0eZVAEdFd14NMgco&dib_tag=se&keywords=shoe+dog+knight&qid=1779370591&s=audible&sprefix=shoe+dog%2Caudible%2C181&sr=1-1&linkCode=ll2&tag=nbab-20&linkId=e0029c08b07877834cfe4728b0ac2fe7&language=en_US&ref_=as_li_ss_tl',
+    amazonUrl:  'https://www.amazon.com/Shoe-Dog-Phil-Knight-audiobook/dp/B01CRJA470?crid=2GP42YJ2YC26D&dib=eyJ2IjoiMSJ9.jOjyM9oEG5ZRK4lKHP_6u_eyAAYH5Twf_Jcz5zyGUEZnp_Hd1JxBtAa4xVXovyq7s88VZGfenNtEE8NzFmQR6rkWYD00Duh9XHYY0VvvN30pZadXR74GihlUz-xeQDY72vM33CgAt6CnFa4fE-W9sKOAzm0aGYqWH81jDTm6cd9s2g6Vj736cfpOhC6DdcyawReNMyOkriAmPH8v3qNE4vewqIzk9K4ZZxBGGfzZSZE.x2KeT-vsnGyibMpfxPtPPyOmgSk0eZVAEdFd14NMgco&dib_tag=se&keywords=shoe+dog+knight&qid=1779370591&s=audible&sprefix=shoe+dog%2Caudible%2C181&sr=1-1&linkCode=ll2&tag=nbab-20&linkId=e0029c08b07877834cfe4728b0ac2fe7&language=en_US&ref_=as_li_ss_tl'
   }
 ];
