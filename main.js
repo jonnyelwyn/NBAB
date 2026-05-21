@@ -69,8 +69,12 @@ function buildCarousel() {
 }
 
 // ---- Render cover positions ----
-function renderCarousel(fast = false) {
+// transitionMs: explicit duration in ms; omit for default (420ms)
+function renderCarousel(transitionMs) {
+  const dur   = typeof transitionMs === 'number' ? transitionMs : 420;
+  const ease  = `transform ${dur}ms cubic-bezier(0.25,0.46,0.45,0.94), filter ${dur}ms ease, opacity ${dur}ms ease`;
   const count = books.length;
+
   document.querySelectorAll('.cover-item').forEach(item => {
     const i      = parseInt(item.dataset.index, 10);
     let offset   = i - currentIndex;
@@ -89,8 +93,7 @@ function renderCarousel(fast = false) {
 
     item.style.opacity       = '1';
     item.style.pointerEvents = abs === 0 ? 'none' : 'auto';
-
-    fast ? item.classList.add('fast') : item.classList.remove('fast');
+    item.style.transition    = ease;
 
     if (offset === 0) {
       item.style.transform  = 'translateX(0px) rotateY(0deg) scale(1) translateZ(0px)';
@@ -117,10 +120,10 @@ function navigate(dir) {
   goTo((currentIndex + dir + books.length) % books.length);
 }
 
-function goTo(index, fast = false) {
+function goTo(index, instant = false) {
   currentIndex = index;
-  renderCarousel(fast);
-  if (!fast) {
+  renderCarousel(instant ? 0 : 420);
+  if (!instant) {
     renderBookDetails();
     renderCTA();
   }
@@ -143,32 +146,34 @@ function spin() {
   const totalSteps = extraLaps * books.length + toTarget;
 
   let step  = 0;
-  let delay = 38;
-  const slowFrom = totalSteps - 10; // start easing in the last 10 steps
+  let delay = 45;
+  const slowFrom = totalSteps - 6; // last 6 steps ease out
 
   function tick() {
     step++;
     currentIndex = (currentIndex + 1) % books.length;
 
-    const last = step >= totalSteps;
-    renderCarousel(!last);
+    const last    = step >= totalSteps;
+    const isFast  = step < slowFrom;
+
+    // Transition duration tracks the timeout delay so covers never freeze mid-spin
+    let transMs;
+    if (last)       transMs = 420;          // smooth final settle
+    else if (isFast) transMs = 50;          // snappy during fast phase
+    else             transMs = delay * 0.9; // just under the timeout so it finishes in time
+
+    renderCarousel(transMs);
 
     if (last) {
-      // Final settle: remove fast class and update details
       setTimeout(() => {
-        renderCarousel(false);
         renderBookDetails();
         renderCTA();
         isSpinning   = false;
         btn.classList.remove('spinning');
         btn.disabled = false;
-      }, 320);
+      }, 450);
     } else {
-      if (step < slowFrom) {
-        delay = Math.min(delay + 1.2, 62);   // stays fast
-      } else {
-        delay = Math.min(delay * 1.45, 380); // exponential ease-out
-      }
+      if (!isFast) delay = Math.min(delay * 1.6, 320); // ease out over 6 steps
       setTimeout(tick, delay);
     }
   }

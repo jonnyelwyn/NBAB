@@ -119,10 +119,6 @@ body {
   transform-origin: center center;
 }
 
-/* Fast class used during spin */
-.cover-item.fast {
-  transition: transform 0.07s ease, filter 0.07s ease, opacity 0.07s ease;
-}
 
 .cover-item img {
   width: 100%;
