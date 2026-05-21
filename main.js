@@ -130,6 +130,9 @@ function goTo(index, instant = false) {
 }
 
 // ---- Spin ----
+// Slowdown is a fixed 4-step sequence with known delays — predictable, smooth
+const SLOWDOWN_MS = [130, 210, 320, 430];
+
 function spin() {
   if (isSpinning) return;
   isSpinning = true;
@@ -138,47 +141,54 @@ function spin() {
   btn.classList.add('spinning');
   btn.disabled = true;
 
-  const target = pickTarget();
-
-  // Total steps: at least one full round, plus distance to target
+  const target    = pickTarget();
   const toTarget  = (target - currentIndex + books.length) % books.length;
   const extraLaps = 1 + Math.floor(Math.random() * 2);
-  const totalSteps = extraLaps * books.length + toTarget;
 
-  let step  = 0;
-  let delay = 45;
-  const slowFrom = totalSteps - 6; // last 6 steps ease out
+  // Fast steps bring us to exactly SLOWDOWN_MS.length steps before target
+  let fastSteps = extraLaps * books.length + toTarget - SLOWDOWN_MS.length;
+  // Ensure at least half a lap of visible fast spin
+  if (fastSteps < Math.ceil(books.length / 2)) fastSteps += books.length;
 
-  function tick() {
-    step++;
+  let step     = 0;
+  let fastDelay = 42;
+
+  // Phase 1: fast snap through books
+  function fastTick() {
     currentIndex = (currentIndex + 1) % books.length;
+    step++;
+    renderCarousel(50);
 
-    const last    = step >= totalSteps;
-    const isFast  = step < slowFrom;
+    if (step < fastSteps) {
+      fastDelay = Math.min(fastDelay + 0.6, 56);
+      setTimeout(fastTick, fastDelay);
+    } else {
+      slowTick(0); // hand off to slowdown phase
+    }
+  }
 
-    // Transition duration tracks the timeout delay so covers never freeze mid-spin
-    let transMs;
-    if (last)       transMs = 420;          // smooth final settle
-    else if (isFast) transMs = 50;          // snappy during fast phase
-    else             transMs = delay * 0.9; // just under the timeout so it finishes in time
+  // Phase 2: fixed slowdown sequence — each step has a known delay so
+  // transition duration can match it exactly, eliminating freeze frames
+  function slowTick(i) {
+    currentIndex = (currentIndex + 1) % books.length;
+    const delay  = SLOWDOWN_MS[i];
+    const isLast = i === SLOWDOWN_MS.length - 1;
+    renderCarousel(Math.round(delay * 0.9));
 
-    renderCarousel(transMs);
-
-    if (last) {
+    if (!isLast) {
+      setTimeout(() => slowTick(i + 1), delay);
+    } else {
       setTimeout(() => {
         renderBookDetails();
         renderCTA();
         isSpinning   = false;
         btn.classList.remove('spinning');
         btn.disabled = false;
-      }, 450);
-    } else {
-      if (!isFast) delay = Math.min(delay * 1.6, 320); // ease out over 6 steps
-      setTimeout(tick, delay);
+      }, delay + 80);
     }
   }
 
-  tick();
+  fastTick();
 }
 
 function pickTarget() {
