@@ -10,9 +10,9 @@
   --text-muted:   #888;
   --accent:       #c8a84b;
   --cta-primary:  #ff6b35;
-  --cover-w:      200px;
-  --cover-h:      300px;
-  --stage-h:      420px;
+  --cover-w:      220px;
+  --cover-h:      220px;
+  --stage-h:      340px;
 }
 
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -383,7 +383,7 @@ body {
 
 .grid-book img {
   width: 100%;
-  aspect-ratio: 2/3;
+  aspect-ratio: 1/1;
   object-fit: cover;
   border-radius: 4px;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.6);
@@ -419,9 +419,9 @@ body {
 /* ---- Responsive ---- */
 @media (max-width: 600px) {
   :root {
-    --cover-w:  150px;
-    --cover-h:  225px;
-    --stage-h:  330px;
+    --cover-w:  160px;
+    --cover-h:  160px;
+    --stage-h:  280px;
   }
   .arrow-prev { left: 4px; }
   .arrow-next { right: 4px; }
@@ -430,9 +430,9 @@ body {
 
 @media (max-width: 380px) {
   :root {
-    --cover-w:  120px;
-    --cover-h:  180px;
-    --stage-h:  290px;
+    --cover-w:  130px;
+    --cover-h:  130px;
+    --stage-h:  220px;
   }
 }
 

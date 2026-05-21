@@ -58,8 +58,8 @@ function buildCarousel() {
     img.src      = book.coverImage;
     img.alt      = `${book.title} by ${book.author}`;
     img.loading  = i === DEFAULT_INDEX ? 'eager' : 'lazy';
-    img.width    = 200;
-    img.height   = 300;
+    img.width    = 220;
+    img.height   = 220;
 
     item.appendChild(img);
     item.addEventListener('click',   () => { if (!isSpinning) goTo(i); });
@@ -312,7 +312,7 @@ function buildGrid() {
     div.setAttribute('role', 'button');
     div.setAttribute('aria-label', `Select ${book.title}`);
     div.innerHTML = `
-      <img src="${esc(book.coverImage)}" alt="${esc(book.title)} by ${esc(book.author)}" loading="lazy" width="120" height="180">
+      <img src="${esc(book.coverImage)}" alt="${esc(book.title)} by ${esc(book.author)}" loading="lazy" width="120" height="120">
       <p class="grid-book-title">${esc(book.title)}</p>
     `;
     div.addEventListener('click', () => {

@@ -63,14 +63,14 @@ const books = [
     subtitle: 'Full Cast BBC Edition',
     author: 'J.K. Rowling',
     narrator: 'Full Cast',
-    coverImage: 'https://placehold.co/300x450/7B1FA2/ffffff?text=Harry+Potter',
-    duration: '8 hrs 18 mins',
-    rating: 4.9,
-    reviewCount: '56,320',
+    coverImage: 'https://m.media-amazon.com/images/I/51YVgooSJuL._SL500_.jpg',
+    duration: '8 hrs 41 mins',
+    rating: 4.8,
+    reviewCount: '156,233',
     review: 'The full-cast BBC production is a revelation — familiar as the story is, hearing it performed like a radio play makes it feel brand new. Essential for fans who think they\'ve experienced everything this world has to offer.',
     badges: ['Full Cast', 'Classic', 'Fan Favourite'],
     audibleUrl: 'https://www.audible.co.uk/pd/Harry-Potter-and-the-Philosophers-Stone-Audiobook/B017V4IWVG',
-    amazonUrl:  'https://www.amazon.co.uk/dp/1781100071'
+    amazonUrl:  'https://www.amazon.com/Harry-Potter-Philosophers-Stone-Full-Cast/dp/B0F14SX2V2'
   },
   {
     id: 5,
